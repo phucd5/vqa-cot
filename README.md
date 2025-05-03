@@ -213,55 +213,31 @@ They include the following:
 
 ## References
 
-1. **Stanislaw Antol**, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh.  
-   *VQA: Visual Question Answering.*  
-   *In 2015 IEEE International Conference on Computer Vision (ICCV), pages 2425–2433, 2015.*
+[1] Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra, C. Lawrence Zitnick, and Devi Parikh. **VQA: Visual Question Answering.** In *2015 IEEE International Conference on Computer Vision (ICCV)*, pages 2425–2433, 2015.
 
-2. **Rui Cao** and Jing Jiang.  
-   *Knowledge generation for zero-shot knowledge-based VQA.*  
-   *Findings of the Association for Computational Linguistics: EACL 2024, pages 533–549, St. Julian’s, Malta, March 2024.*
+[2] Rui Cao and Jing Jiang. **Knowledge generation for zero-shot knowledge-based VQA.** In Yvette Graham and Matthew Purver, editors, *Findings of the Association for Computational Linguistics: EACL 2024*, pages 533–549, St. Julian’s, Malta, March 2024. Association for Computational Linguistics.
 
-3. **Zhenfang Chen**, Qinhong Zhou, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, and Chuang Gan.  
-   *Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning.*  
-   *Volume 38, pages 1254–1262, March 2024.*
+[3] Zhenfang Chen, Qinhong Zhou, Yikang Shen, Yining Hong, Zhiqing Sun, Dan Gutfreund, and Chuang Gan. **Visual Chain-of-Thought Prompting for Knowledge-Based Visual Reasoning.** *Volume 38*, pages 1254–1262, March 2024.
 
-4. **Drew A. Hudson** and Christopher D. Manning.  
-   *GQA: A new dataset for real-world visual reasoning and compositional question answering.*  
-   *In CVPR, June 2019.*
+[4] Drew A. Hudson and Christopher D. Manning. **GQA: A new dataset for real-world visual reasoning and compositional question answering.** In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, June 2019.
 
-5. **Wonjae Kim**, Bokyung Son, and Ildoo Kim.  
-   *VILT: Vision-and-language transformer without convolution or region supervision.*  
-   *In ICML, volume 139 of Proceedings of Machine Learning Research, pages 5583–5594, July 2021.*
+[5] Wonjae Kim, Bokyung Son, and Ildoo Kim. **ViLT: Vision-and-language transformer without convolution or region supervision.** In Marina Meila and Tong Zhang, editors, *Proceedings of the 38th International Conference on Machine Learning*, volume 139 of *Proceedings of Machine Learning Research*, pages 5583–5594. PMLR, July 2021.
 
-6. **Guangyao Li**, Henghui Du, and Di Hu.  
-   *AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios.*  
-   *In CVPR Sight and Sound Workshops, 2024.*
+[6] Guangyao Li, Henghui Du, and Di Hu. **AVQA-CoT: When CoT Meets Question Answering in Audio-Visual Scenarios.** In *CVPR Sight and Sound Workshops*, 2024.
 
-7. **Junnan Li**, Dongxu Li, Caiming Xiong, and Steven Hoi.  
-   *BLIP: Bootstrapping language-image pre-training for unified vision-language understanding and generation.*  
-   *In ICML, 2022.*
+[7] Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi. **BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models**, 2023.
 
-8. **Pan Lu**, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, and Ashwin Kalyan.  
-   *Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering.*  
-   *In NeurIPS, 2022.*
+[8] Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, and Ashwin Kalyan. **Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering.** In *NeurIPS*, 2022.
 
-9. **OpenAI.**  
-   *GPT-4o mini: Advancing Cost-Efficient Intelligence,* July 2024.
+[9] OpenAI. **Introducing GPT-4.1,** April 2025.
 
-10. **OpenAI.**  
-    *Introducing GPT-4.1,* 2025.
+[10] OpenAI. **Introducing OpenAI o3 and o4-mini,** April 2025.
 
-11. **Hao Shao**, Shengju Qian, Han Xiao, Guanglu Song, Zhuofan Zong, Letian Wang, Yu Liu, and Hongsheng Li.  
-    *Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning.*  
-    *In NeurIPS, volume 37, pages 8612–8642, 2024.*
+[11] Hao Shao, Shengju Qian, Han Xiao, Guanglu Song, Zhuofan Zong, Letian Wang, Yu Liu, and Hongsheng Li. **Visual CoT: Advancing Multi-Modal Language Models with a Comprehensive Dataset and Benchmark for Chain-of-Thought Reasoning.** In A. Globerson, L. Mackey, D. Belgrave, A. Fan, U. Paquet, J. Tomczak, and C. Zhang, editors, *Advances in Neural Information Processing Systems*, volume 37, pages 8612–8642. Curran Associates, Inc., 2024.
 
-12. **Kohei Uehara**, Nan Duan, and Tatsuya Harada.  
-    *Learning to ask informative sub-questions for visual question answering.*  
-    *In CVPR Workshops (CVPRW), pages 4680–4689, 2022.*
+[12] Kohei Uehara, Nan Duan, and Tatsuya Harada. **Learning to ask informative sub-questions for visual question answering.** In *2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)*, pages 4680–4689, 2022.
 
-13. **Ruonan Wang**, Yuxi Qian, Fangxiang Feng, Xiaojie Wang, and Huixing Jiang.  
-    *Co-VQA: Answering by Interactive Sub Question Sequence.*  
-    *In ACL 2022 Findings, pages 2396–2408, Dublin, Ireland, May 2022.*
+[13] Ruonan Wang, Yuxi Qian, Fangxiang Feng, Xiaojie Wang, and Huixing Jiang. **Co-VQA: Answering by Interactive Sub Question Sequence.** In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio, editors, *Findings of the Association for Computational Linguistics: ACL 2022*, pages 2396–2408, Dublin, Ireland, May 2022. Association for Computational Linguistics.
 
-14. **Xuezhi Wang**, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou.  
-    *Self-Consistency Improves Chain of Thought Reasoning in Language Models,* 2023.
+[14] Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. **Self-Consistency Improves Chain of Thought Reasoning in Language Models**, 2023.
+
