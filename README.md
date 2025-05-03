@@ -10,7 +10,7 @@ Yale University, Department of Computer Science
 
 ## Overview
 
-The Visual Question Answering (VQA) task is difficult for vision-language and language models because it involves question answering that involves not only multimodal inputs but also multiple reasoning steps. We introduce 3 new systems for CoT for VQA: (1) dynamic CoT, which generates sub-questions tailored to each image-question pair, (2) self-consistent CoT which samples multiple reasoning chains and pick the top $k$ answer, and (3) sequential CoT which feed in the answer to a sub-question back in the model, before generating a new one to iteratively develop sub-question. We found that sequential CoT performed 3.6\% better compared compared to basic CoT in BLIP2+GPT4.1, and 9.6\% better with VILT+o4-mini. Analysis also shows that sequential prompting can help correct hallucinations, and mitigate error propagation to some questions. Additionally, we also found that CoT prompting is explicitly better on questions that compares attribute of two different objects, as it isolates each attribute into simpler sub-questions the VQA model can answer more accurately. Our results shows the that iterative and dynamic reasoning with CoT can help improve multi-step VQA.
+The Visual Question Answering (VQA) task is difficult for vision-language and language models because it requires answering questions that involve not only multimodal inputs but also multiple reasoning steps. We introduce 3 new systems for CoT for VQA: (1) dynamic CoT, which generates sub-questions tailored to each image-question pair, (2) self-consistent CoT, which samples multiple reasoning chains and picks the most frequent answer, and (3) sequential CoT which feeds in the answer to a sub-question back into the model, before generating a new one to iteratively develop further sub-questions. We found that sequential CoT performed 10.59\% better compared to basic CoT in BLIP-2+GPT4.1 and 36.6\% better with VILT+o4-mini. Analysis also shows that sequential prompting can help correct hallucinations and mitigate error propagation to some questions. Additionally, we also found that CoT prompting is explicitly better on questions that compare attributes of two different objects, as it isolates each attribute into simpler sub-questions the VQA model can answer more accurately. Our results show that iterative and dynamic reasoning with CoT can help improve multi-step VQA.
 
 ![vqa_systems](assets/vqa_systems.png)
 
@@ -48,7 +48,7 @@ HF_API_KEY=<key>
 We utilized the GQA: Visual Reasoning in the Real World dataset. The data can be downloaded [here](https://cs.stanford.edu/people/dorarad/gqa/about.html). All data preprocessing code can be found [data_preprocess.py](data/data_preprocess.py). 
 
 ### Overview
-We first flattened the GQA data. Then we created different processing functions, `preprocess_data_classification` and `preprocess_data_generation,` that handle the data preparation for our classification and generation tasks, respectively. 
+We first flattened the GQA data and used stratified sampling by local group to ensure that the selected questions were representative of the various types and scenarios found in the full dataset. Then we created different processing functions, `preprocess_data_classification` and `preprocess_data_generation,` that handle the data preparation for our classification and generation tasks, respectively.
 
 - Classification encodes answers as one-hot vectors
 - Generation function formats input as question-answer prompts with appropriate token masking
@@ -80,7 +80,8 @@ python data/data_preprocess.py \
 | `--process_train` `--process_val` `--process_test`                  | flag    | Specify which dataset(s) to process.                                                                                                                        |
 ## Model
 
-We used a pre-trained `Salesforce/blip2-opt-2.7b` and `dandelin/vilt-b32-mlm`, implemented in [blip_model.py](model/blip_model.py) and [vilt_model.py](model/vilt_model.py). Our model code are built to interface with Hugging Face transformers. If using a custom model, please make sure it's compatible with Hugging Face libraries and that it implements `train` or `forward` following the `Model` class in [base_model.py](model/base_model.py) for integration into our evaluation system.
+We used a pre-trained [`Salesforce/blip2-opt-2.7b`](https://huggingface.co/Salesforce/blip2-opt-2.7b) and [`dandelin/vilt-b32-mlm`](https://huggingface.co/dandelin/vilt-b32-mlm), implemented in [blip_model.py](model/blip_model.py) and [vilt_model.py](model/vilt_model.py). Our model code are built to interface with Hugging Face transformers. If using a custom model, please make sure it's compatible with Hugging Face libraries and that it implements `train` or `forward` following the `Model` class in [base_model.py](model/base_model.py) for integration into our evaluation system. Our trained model is available at [`phucd/vilt-gqa-ft`](https://huggingface.co/phucd/vilt-gqa-ft).
+
 
 LLM models used for evaluation are `gpt-4.1-2025-04-14` and `o4-mini-2025-04-16`.
 
