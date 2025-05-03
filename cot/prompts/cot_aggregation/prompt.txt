@@ -1,0 +1,7 @@
+Given pairs of sub-questions and answers about a visual scenario, give me correct answer to the complex question.
+Sub-question & Answer Pairs:
+[Insert QA-Pairs Here]
+Complex Question:
+[Insert Complex Question Here]
+
+

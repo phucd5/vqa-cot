@@ -1,0 +1,2010 @@
+{
+    "test_type": "direct",
+    "openai_model_name": "gpt-4.1-2025-04-14",
+    "model_dir": "phucd/vilt-gqa-ft",
+    "accuracy": 0.456,
+    "correct_count": 114,
+    "total_count": 250,
+    "results": [
+        {
+            "question": "Does the hat that looks black and white look closed and Adidas?",
+            "image_path": "data/images/images/n274905.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "How big are the horses?",
+            "image_path": "data/images/images/n210269.jpg",
+            "qa_pairs": null,
+            "expected_answer": "large",
+            "model_prediction": "large",
+            "is_correct": true
+        },
+        {
+            "question": "How big is the round cake?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": null,
+            "expected_answer": "small",
+            "model_prediction": "small",
+            "is_correct": true
+        },
+        {
+            "question": "Are there any benches or bandages?",
+            "image_path": "data/images/images/n71728.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the color of the blanket different than the color of the lamp?",
+            "image_path": "data/images/images/n432591.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Which material is the bench which is to the left of the lamp made of, concrete or iron?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": null,
+            "expected_answer": "concrete",
+            "model_prediction": "metal",
+            "is_correct": false
+        },
+        {
+            "question": "What are the flowers in front of?",
+            "image_path": "data/images/images/n6908.jpg",
+            "qa_pairs": null,
+            "expected_answer": "christmas light",
+            "model_prediction": "bushes",
+            "is_correct": false
+        },
+        {
+            "question": "In front of what is the ocean?",
+            "image_path": "data/images/images/n386688.jpg",
+            "qa_pairs": null,
+            "expected_answer": "trees",
+            "model_prediction": "trees",
+            "is_correct": true
+        },
+        {
+            "question": "What food isn't baked?",
+            "image_path": "data/images/images/n296467.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cookies",
+            "model_prediction": "asparagus",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a traffic light to the left of the minivan?",
+            "image_path": "data/images/images/n486200.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is in front of the barn?",
+            "image_path": "data/images/images/n143935.jpg",
+            "qa_pairs": null,
+            "expected_answer": "trees",
+            "model_prediction": "trees",
+            "is_correct": true
+        },
+        {
+            "question": "Is the black hair long or short?",
+            "image_path": "data/images/images/n468864.jpg",
+            "qa_pairs": null,
+            "expected_answer": "long",
+            "model_prediction": "long",
+            "is_correct": true
+        },
+        {
+            "question": "Are there cones behind the hydrant made of metal?",
+            "image_path": "data/images/images/n12404.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Do the jeans look blue and short?",
+            "image_path": "data/images/images/n86120.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "On which side of the photo is the person, the left or the right?",
+            "image_path": "data/images/images/n496803.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "Does the person to the right of the frisbee seem to be standing?",
+            "image_path": "data/images/images/n187544.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Does the speaker to the left of the other speaker look blue?",
+            "image_path": "data/images/images/n275148.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Who is the baby sitting atop?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": null,
+            "expected_answer": "woman",
+            "model_prediction": "woman",
+            "is_correct": true
+        },
+        {
+            "question": "Does the napkin have the same color as the notebook?",
+            "image_path": "data/images/images/n403734.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Do you think the tennis racket is wooden?",
+            "image_path": "data/images/images/n413319.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Does the cake to the left of the knife look baked and triangular?",
+            "image_path": "data/images/images/n381072.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Do the vase and the toilet brush have the same color?",
+            "image_path": "data/images/images/n59147.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Are there ladies in front of the plates?",
+            "image_path": "data/images/images/n433532.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the bag sitting on top of?",
+            "image_path": "data/images/images/n206785.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cabinet",
+            "model_prediction": "counter",
+            "is_correct": false
+        },
+        {
+            "question": "What is the light blue clothing item?",
+            "image_path": "data/images/images/n195249.jpg",
+            "qa_pairs": null,
+            "expected_answer": "tank top",
+            "model_prediction": "shirt",
+            "is_correct": false
+        },
+        {
+            "question": "How long is the dark shirt?",
+            "image_path": "data/images/images/n305495.jpg",
+            "qa_pairs": null,
+            "expected_answer": "long",
+            "model_prediction": "short",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the image are the baseball players?",
+            "image_path": "data/images/images/n538684.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the picture is the silver spoon?",
+            "image_path": "data/images/images/n336443.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "right",
+            "is_correct": true
+        },
+        {
+            "question": "Is the traffic signal different in color than the platform?",
+            "image_path": "data/images/images/n153118.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the toilet paper in front of?",
+            "image_path": "data/images/images/n162108.jpg",
+            "qa_pairs": null,
+            "expected_answer": "toilet",
+            "model_prediction": "toilet",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of furniture is stacked?",
+            "image_path": "data/images/images/n520071.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bookcase",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "What is the bag resting on?",
+            "image_path": "data/images/images/n59147.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chair",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "Who is wearing a sweatshirt?",
+            "image_path": "data/images/images/n159802.jpg",
+            "qa_pairs": null,
+            "expected_answer": "girl",
+            "model_prediction": "child",
+            "is_correct": false
+        },
+        {
+            "question": "What is in front of the bricks?",
+            "image_path": "data/images/images/n445353.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chair",
+            "model_prediction": "mat",
+            "is_correct": false
+        },
+        {
+            "question": "Do you see rolling pins or microwaves in this scene?",
+            "image_path": "data/images/images/n578564.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is there a brown bag or umbrella?",
+            "image_path": "data/images/images/n313060.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the bench in front of?",
+            "image_path": "data/images/images/n329479.jpg",
+            "qa_pairs": null,
+            "expected_answer": "trees",
+            "model_prediction": "tree",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any black horses or zebras?",
+            "image_path": "data/images/images/n579928.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What devices are the cables behind of?",
+            "image_path": "data/images/images/n262920.jpg",
+            "qa_pairs": null,
+            "expected_answer": "laptops",
+            "model_prediction": "computers",
+            "is_correct": false
+        },
+        {
+            "question": "Who is the coffee table in front of?",
+            "image_path": "data/images/images/n526228.jpg",
+            "qa_pairs": null,
+            "expected_answer": "man",
+            "model_prediction": "children",
+            "is_correct": false
+        },
+        {
+            "question": "Is the lamp made of the same material as the van?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What hangs above the crowd?",
+            "image_path": "data/images/images/n146555.jpg",
+            "qa_pairs": null,
+            "expected_answer": "street light",
+            "model_prediction": "sign",
+            "is_correct": false
+        },
+        {
+            "question": "What device is sitting beside the bag?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": null,
+            "expected_answer": "laptop",
+            "model_prediction": "laptop",
+            "is_correct": true
+        },
+        {
+            "question": "How big is the glass that contains doors?",
+            "image_path": "data/images/images/n246334.jpg",
+            "qa_pairs": null,
+            "expected_answer": "large",
+            "model_prediction": "small",
+            "is_correct": false
+        },
+        {
+            "question": "Are the condiments in a blender?",
+            "image_path": "data/images/images/n314171.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture is in front of the window that looks square?",
+            "image_path": "data/images/images/n283587.jpg",
+            "qa_pairs": null,
+            "expected_answer": "sofa",
+            "model_prediction": "chair",
+            "is_correct": false
+        },
+        {
+            "question": "Are the white pants short or long?",
+            "image_path": "data/images/images/n98540.jpg",
+            "qa_pairs": null,
+            "expected_answer": "short",
+            "model_prediction": "long",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of clothing is worn?",
+            "image_path": "data/images/images/n357784.jpg",
+            "qa_pairs": null,
+            "expected_answer": "shirt",
+            "model_prediction": "shirt",
+            "is_correct": true
+        },
+        {
+            "question": "What are the pieces of furniture underneath the table?",
+            "image_path": "data/images/images/n276011.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chairs",
+            "model_prediction": "chairs",
+            "is_correct": true
+        },
+        {
+            "question": "How large is the fork on top of the table?",
+            "image_path": "data/images/images/n170941.jpg",
+            "qa_pairs": null,
+            "expected_answer": "small",
+            "model_prediction": "large",
+            "is_correct": false
+        },
+        {
+            "question": "Is that table smooth and dark brown?",
+            "image_path": "data/images/images/n234722.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there cakes near the plates?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the written sign?",
+            "image_path": "data/images/images/n255161.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stop sign",
+            "model_prediction": "stop sign",
+            "is_correct": true
+        },
+        {
+            "question": "What is the food that is not sliced called?",
+            "image_path": "data/images/images/n222915.jpg",
+            "qa_pairs": null,
+            "expected_answer": "vegetables",
+            "model_prediction": "noodles",
+            "is_correct": false
+        },
+        {
+            "question": "Are both the bookshelf and the chair made of the same material?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is the palm made of the same material as the fence?",
+            "image_path": "data/images/images/n222297.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is the length of the TV stand on the left?",
+            "image_path": "data/images/images/n275148.jpg",
+            "qa_pairs": null,
+            "expected_answer": "short",
+            "model_prediction": "long",
+            "is_correct": false
+        },
+        {
+            "question": "Does the book have the same color as the charger?",
+            "image_path": "data/images/images/n90294.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Which side of the photo is the cake on?",
+            "image_path": "data/images/images/n118102.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of clothing is not bright?",
+            "image_path": "data/images/images/n88933.jpg",
+            "qa_pairs": null,
+            "expected_answer": "t-shirt",
+            "model_prediction": "sock",
+            "is_correct": false
+        },
+        {
+            "question": "What is she sitting in front of?",
+            "image_path": "data/images/images/n233607.jpg",
+            "qa_pairs": null,
+            "expected_answer": "table",
+            "model_prediction": "window",
+            "is_correct": false
+        },
+        {
+            "question": "Which seems to be younger, the woman or the girl?",
+            "image_path": "data/images/images/n498712.jpg",
+            "qa_pairs": null,
+            "expected_answer": "girl",
+            "model_prediction": "women",
+            "is_correct": false
+        },
+        {
+            "question": "Who is wearing the bracelet?",
+            "image_path": "data/images/images/n488874.jpg",
+            "qa_pairs": null,
+            "expected_answer": "surfer",
+            "model_prediction": "boy",
+            "is_correct": false
+        },
+        {
+            "question": "What do both the signal light and the road have in common?",
+            "image_path": "data/images/images/n243701.jpg",
+            "qa_pairs": null,
+            "expected_answer": "color",
+            "model_prediction": "color",
+            "is_correct": true
+        },
+        {
+            "question": "Is the shirt made of cotton short sleeved and gray?",
+            "image_path": "data/images/images/n477702.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is in front of the doors that are on the front of the school?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stairs",
+            "model_prediction": "fire hydrant",
+            "is_correct": false
+        },
+        {
+            "question": "Do you see chairs to the right of the towel?",
+            "image_path": "data/images/images/n140421.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Does the bridge above the water have huge size?",
+            "image_path": "data/images/images/n58220.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Does that cap look brown?",
+            "image_path": "data/images/images/n318684.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which side of the photo is the lamp on?",
+            "image_path": "data/images/images/n472825.jpg",
+            "qa_pairs": null,
+            "expected_answer": "left",
+            "model_prediction": "left",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of device is sitting atop the chair?",
+            "image_path": "data/images/images/n532191.jpg",
+            "qa_pairs": null,
+            "expected_answer": "laptop",
+            "model_prediction": "laptop",
+            "is_correct": true
+        },
+        {
+            "question": "Who is on the red dirt?",
+            "image_path": "data/images/images/n130638.jpg",
+            "qa_pairs": null,
+            "expected_answer": "umpire",
+            "model_prediction": "batter",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture is yellow?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bed",
+            "model_prediction": "cabinet",
+            "is_correct": false
+        },
+        {
+            "question": "What item of furniture is below the light fixture that is below the sign?",
+            "image_path": "data/images/images/n150962.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chair",
+            "model_prediction": "chair",
+            "is_correct": true
+        },
+        {
+            "question": "What is wrapped around the vehicle behind the building?",
+            "image_path": "data/images/images/n357126.jpg",
+            "qa_pairs": null,
+            "expected_answer": "window",
+            "model_prediction": "pole",
+            "is_correct": false
+        },
+        {
+            "question": "Is the sculpture made of the same material as the manhole cover?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What are the items of furniture that are to the right of the refrigerator made of stainless steel?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cabinets",
+            "model_prediction": "cabinets",
+            "is_correct": true
+        },
+        {
+            "question": "Does the car to the left of the girl look black?",
+            "image_path": "data/images/images/n200907.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Do the doors behind the stairs look glass and rectangular?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What width is the sky?",
+            "image_path": "data/images/images/n219840.jpg",
+            "qa_pairs": null,
+            "expected_answer": "wide",
+            "model_prediction": "wide",
+            "is_correct": true
+        },
+        {
+            "question": "Are both the oven and the light fixture made of the same material?",
+            "image_path": "data/images/images/n548534.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the bread on the left side?",
+            "image_path": "data/images/images/n181210.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is hanging above the train?",
+            "image_path": "data/images/images/n525029.jpg",
+            "qa_pairs": null,
+            "expected_answer": "wires",
+            "model_prediction": "power line",
+            "is_correct": false
+        },
+        {
+            "question": "Does the towel have a different color than the floor?",
+            "image_path": "data/images/images/n141939.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is there either a black calculator or chair?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What color is the knife block on the counter?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": null,
+            "expected_answer": "light brown",
+            "model_prediction": "brown",
+            "is_correct": true
+        },
+        {
+            "question": "How fat is the charger that is plugged into the laptop computer?",
+            "image_path": "data/images/images/n532191.jpg",
+            "qa_pairs": null,
+            "expected_answer": "skinny",
+            "model_prediction": "skinny",
+            "is_correct": true
+        },
+        {
+            "question": "Which material makes up the pillow, cloth or leather?",
+            "image_path": "data/images/images/n181355.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cloth",
+            "model_prediction": "cloth",
+            "is_correct": true
+        },
+        {
+            "question": "Is the cow small and still?",
+            "image_path": "data/images/images/n146555.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture are the books sitting atop?",
+            "image_path": "data/images/images/n432591.jpg",
+            "qa_pairs": null,
+            "expected_answer": "nightstand",
+            "model_prediction": "bed",
+            "is_correct": false
+        },
+        {
+            "question": "Does the oven door that looks square seem to be white?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What kind of food is to the left of the egg?",
+            "image_path": "data/images/images/n100991.jpg",
+            "qa_pairs": null,
+            "expected_answer": "sausage",
+            "model_prediction": "egg",
+            "is_correct": false
+        },
+        {
+            "question": "Is the van pink and metallic?",
+            "image_path": "data/images/images/n256120.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "In which part of the picture is the black olive, the top or the bottom?",
+            "image_path": "data/images/images/n200225.jpg",
+            "qa_pairs": null,
+            "expected_answer": "top",
+            "model_prediction": "bottom",
+            "is_correct": false
+        },
+        {
+            "question": "Who is looking down at the grass?",
+            "image_path": "data/images/images/n172618.jpg",
+            "qa_pairs": null,
+            "expected_answer": "girl",
+            "model_prediction": "girl",
+            "is_correct": true
+        },
+        {
+            "question": "Are there either any tablecloths or forks?",
+            "image_path": "data/images/images/n181210.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What vehicle is to the right of the backpack?",
+            "image_path": "data/images/images/n411121.jpg",
+            "qa_pairs": null,
+            "expected_answer": "van",
+            "model_prediction": "car",
+            "is_correct": false
+        },
+        {
+            "question": "Does the plant have a different color than the bookcase?",
+            "image_path": "data/images/images/n207708.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Where is the woman?",
+            "image_path": "data/images/images/n538039.jpg",
+            "qa_pairs": null,
+            "expected_answer": "grass",
+            "model_prediction": "field",
+            "is_correct": false
+        },
+        {
+            "question": "Is the logo green?",
+            "image_path": "data/images/images/n258500.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Of what color are the trees behind the fire truck?",
+            "image_path": "data/images/images/n480253.jpg",
+            "qa_pairs": null,
+            "expected_answer": "brown",
+            "model_prediction": "brown",
+            "is_correct": true
+        },
+        {
+            "question": "Does the skinny girl look blond?",
+            "image_path": "data/images/images/n148872.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a lamp in this picture that is large?",
+            "image_path": "data/images/images/n526228.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the animal that the person that is walking is leading?",
+            "image_path": "data/images/images/n187961.jpg",
+            "qa_pairs": null,
+            "expected_answer": "goat",
+            "model_prediction": "sheep",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any seals or bunnies in the picture?",
+            "image_path": "data/images/images/n493357.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the flag green?",
+            "image_path": "data/images/images/n256120.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which tone is the kite, light or dark?",
+            "image_path": "data/images/images/n507149.jpg",
+            "qa_pairs": null,
+            "expected_answer": "light",
+            "model_prediction": "light",
+            "is_correct": true
+        },
+        {
+            "question": "Is the white device to the right or to the left of the white bag?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "Is the rug the same color as the flower?",
+            "image_path": "data/images/images/n167552.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any elephants or giraffes?",
+            "image_path": "data/images/images/n44249.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What animal is the person that is walking leading?",
+            "image_path": "data/images/images/n187961.jpg",
+            "qa_pairs": null,
+            "expected_answer": "goat",
+            "model_prediction": "sheep",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of furniture is metallic?",
+            "image_path": "data/images/images/n500308.jpg",
+            "qa_pairs": null,
+            "expected_answer": "table",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "On which side is the wood shelf?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "What pieces of furniture is the audience sitting on?",
+            "image_path": "data/images/images/n573460.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chairs",
+            "model_prediction": "table",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any computers near the tape?",
+            "image_path": "data/images/images/n315887.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the young person in front of the traffic sign?",
+            "image_path": "data/images/images/n393305.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the appliance on the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": null,
+            "expected_answer": "refrigerator",
+            "model_prediction": "refrigerator",
+            "is_correct": true
+        },
+        {
+            "question": "What is the spoon sitting atop?",
+            "image_path": "data/images/images/n184385.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stove",
+            "model_prediction": "napkin",
+            "is_correct": false
+        },
+        {
+            "question": "What animal is walking on the ground?",
+            "image_path": "data/images/images/n335542.jpg",
+            "qa_pairs": null,
+            "expected_answer": "birds",
+            "model_prediction": "bear",
+            "is_correct": false
+        },
+        {
+            "question": "How wide is the parking lot made of cement?",
+            "image_path": "data/images/images/n259949.jpg",
+            "qa_pairs": null,
+            "expected_answer": "wide",
+            "model_prediction": "wide",
+            "is_correct": true
+        },
+        {
+            "question": "Is the red shirt colorful or black and white?",
+            "image_path": "data/images/images/n485969.jpg",
+            "qa_pairs": null,
+            "expected_answer": "black and white",
+            "model_prediction": "black and white",
+            "is_correct": true
+        },
+        {
+            "question": "How hard is the sidewalk?",
+            "image_path": "data/images/images/n131634.jpg",
+            "qa_pairs": null,
+            "expected_answer": "hard",
+            "model_prediction": "soft",
+            "is_correct": false
+        },
+        {
+            "question": "What is the hair clip lying on top of?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bed",
+            "model_prediction": "bun",
+            "is_correct": false
+        },
+        {
+            "question": "Is the toilet long?",
+            "image_path": "data/images/images/n240666.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of vehicle is parked behind the car?",
+            "image_path": "data/images/images/n131634.jpg",
+            "qa_pairs": null,
+            "expected_answer": "van",
+            "model_prediction": "car",
+            "is_correct": false
+        },
+        {
+            "question": "Does the boy to the right of the person appear to be standing?",
+            "image_path": "data/images/images/n133585.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What are the cups made of?",
+            "image_path": "data/images/images/n518912.jpg",
+            "qa_pairs": null,
+            "expected_answer": "porcelain",
+            "model_prediction": "plastic",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any fire hydrants or bicycles?",
+            "image_path": "data/images/images/n51002.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Who is in front of the sign that is on top of the pole?",
+            "image_path": "data/images/images/n393305.jpg",
+            "qa_pairs": null,
+            "expected_answer": "girl",
+            "model_prediction": "woman",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any green blankets or towels?",
+            "image_path": "data/images/images/n470920.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the mirror above the fireplace?",
+            "image_path": "data/images/images/n23181.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is hanging from the table that is to the left of the guitar?",
+            "image_path": "data/images/images/n507959.jpg",
+            "qa_pairs": null,
+            "expected_answer": "purse",
+            "model_prediction": "cord",
+            "is_correct": false
+        },
+        {
+            "question": "Is the batter in front of the umpire that is wearing a belt?",
+            "image_path": "data/images/images/n334278.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Which color is the bag which is lying on top of the bed?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": null,
+            "expected_answer": "green",
+            "model_prediction": "gray",
+            "is_correct": false
+        },
+        {
+            "question": "Is the shirt soft and maroon?",
+            "image_path": "data/images/images/n551964.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of device is to the right of the speaker?",
+            "image_path": "data/images/images/n315887.jpg",
+            "qa_pairs": null,
+            "expected_answer": "computer",
+            "model_prediction": "monitor",
+            "is_correct": false
+        },
+        {
+            "question": "What is beneath the tap?",
+            "image_path": "data/images/images/n386682.jpg",
+            "qa_pairs": null,
+            "expected_answer": "sink",
+            "model_prediction": "sink",
+            "is_correct": true
+        },
+        {
+            "question": "Do you see both tissues and mirrors?",
+            "image_path": "data/images/images/n141939.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there trash cans to the left of the soccer player that is kicking the ball?",
+            "image_path": "data/images/images/n259002.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of device is the man using?",
+            "image_path": "data/images/images/n483840.jpg",
+            "qa_pairs": null,
+            "expected_answer": "phone",
+            "model_prediction": "camera",
+            "is_correct": false
+        },
+        {
+            "question": "How tall is the table?",
+            "image_path": "data/images/images/n314171.jpg",
+            "qa_pairs": null,
+            "expected_answer": "tall",
+            "model_prediction": "tall",
+            "is_correct": true
+        },
+        {
+            "question": "Are the blinds in front of the window and the towels both brown?",
+            "image_path": "data/images/images/n499081.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Which gender is the skateboarder that is to the left of the helmet?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": null,
+            "expected_answer": "female",
+            "model_prediction": "female",
+            "is_correct": true
+        },
+        {
+            "question": "What is the baby on?",
+            "image_path": "data/images/images/n211324.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bicycle",
+            "model_prediction": "motorcycle",
+            "is_correct": false
+        },
+        {
+            "question": "What piece of furniture is comfortable?",
+            "image_path": "data/images/images/n14087.jpg",
+            "qa_pairs": null,
+            "expected_answer": "couch",
+            "model_prediction": "couch",
+            "is_correct": true
+        },
+        {
+            "question": "What kind of furniture are the curtains behind of?",
+            "image_path": "data/images/images/n125122.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chair",
+            "model_prediction": "computer desk",
+            "is_correct": false
+        },
+        {
+            "question": "What are the animals that are flying called?",
+            "image_path": "data/images/images/n477215.jpg",
+            "qa_pairs": null,
+            "expected_answer": "birds",
+            "model_prediction": "birds",
+            "is_correct": true
+        },
+        {
+            "question": "Is the young person on the bike?",
+            "image_path": "data/images/images/n262929.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Are the clouds above the brick building?",
+            "image_path": "data/images/images/n263180.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the helmet to the right of a motorcycle?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Does the female person seem to be looking down?",
+            "image_path": "data/images/images/n481777.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the happy man to the right or to the left of the bench?",
+            "image_path": "data/images/images/n71728.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "right",
+            "is_correct": true
+        },
+        {
+            "question": "On which side of the photo is the dark vehicle, the left or the right?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": null,
+            "expected_answer": "left",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either cabinets or tables that are not light brown?",
+            "image_path": "data/images/images/n460385.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What appliance is the same shape as the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": null,
+            "expected_answer": "oven",
+            "model_prediction": "stove",
+            "is_correct": false
+        },
+        {
+            "question": "Is the large vehicle yellow or black?",
+            "image_path": "data/images/images/n19152.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yellow",
+            "model_prediction": "black",
+            "is_correct": false
+        },
+        {
+            "question": "What item of furniture are the bricks behind of?",
+            "image_path": "data/images/images/n445353.jpg",
+            "qa_pairs": null,
+            "expected_answer": "chair",
+            "model_prediction": "table",
+            "is_correct": false
+        },
+        {
+            "question": "Is the umbrella green?",
+            "image_path": "data/images/images/n24526.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Where is the statue standing on?",
+            "image_path": "data/images/images/n260521.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stage",
+            "model_prediction": "ground",
+            "is_correct": false
+        },
+        {
+            "question": "How clean are the pots?",
+            "image_path": "data/images/images/n62458.jpg",
+            "qa_pairs": null,
+            "expected_answer": "dirty",
+            "model_prediction": "dirty",
+            "is_correct": true
+        },
+        {
+            "question": "Is there a blender to the right of the yellow drink?",
+            "image_path": "data/images/images/n37274.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What are the Caucasian people doing?",
+            "image_path": "data/images/images/n531359.jpg",
+            "qa_pairs": null,
+            "expected_answer": "talking",
+            "model_prediction": "eating",
+            "is_correct": false
+        },
+        {
+            "question": "Is the water both blue and wet?",
+            "image_path": "data/images/images/n222297.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the dark curtain above a bed?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the woman Caucasian or Asian?",
+            "image_path": "data/images/images/n527589.jpg",
+            "qa_pairs": null,
+            "expected_answer": "caucasian",
+            "model_prediction": "caucasian",
+            "is_correct": true
+        },
+        {
+            "question": "Does the shirt look gold and long sleeved?",
+            "image_path": "data/images/images/n544255.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the picture is the toilet?",
+            "image_path": "data/images/images/n119886.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "How big is the curtain?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": null,
+            "expected_answer": "small",
+            "model_prediction": "large",
+            "is_correct": false
+        },
+        {
+            "question": "Do the screen and the keyboard have the same color?",
+            "image_path": "data/images/images/n355339.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What animal is the shoe behind of?",
+            "image_path": "data/images/images/n16656.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cat",
+            "model_prediction": "cat",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of animal is looking at the man?",
+            "image_path": "data/images/images/n250821.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cat",
+            "model_prediction": "dog",
+            "is_correct": false
+        },
+        {
+            "question": "Is the person to the left of the player playing or waiting?",
+            "image_path": "data/images/images/n334278.jpg",
+            "qa_pairs": null,
+            "expected_answer": "playing",
+            "model_prediction": "waiting",
+            "is_correct": false
+        },
+        {
+            "question": "Are there both desks and monitors in the image?",
+            "image_path": "data/images/images/n264887.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What kind of clothing is green?",
+            "image_path": "data/images/images/n126891.jpg",
+            "qa_pairs": null,
+            "expected_answer": "jersey",
+            "model_prediction": "jacket",
+            "is_correct": false
+        },
+        {
+            "question": "What is the animal that that fence is in front of called?",
+            "image_path": "data/images/images/n6309.jpg",
+            "qa_pairs": null,
+            "expected_answer": "horse",
+            "model_prediction": "horse",
+            "is_correct": true
+        },
+        {
+            "question": "What is the color of the food container?",
+            "image_path": "data/images/images/n363445.jpg",
+            "qa_pairs": null,
+            "expected_answer": "purple",
+            "model_prediction": "white",
+            "is_correct": false
+        },
+        {
+            "question": "What is the black item of furniture?",
+            "image_path": "data/images/images/n69237.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bookcase",
+            "model_prediction": "bed",
+            "is_correct": false
+        },
+        {
+            "question": "Does the computer to the right of the shelf look black or silver?",
+            "image_path": "data/images/images/n233607.jpg",
+            "qa_pairs": null,
+            "expected_answer": "silver",
+            "model_prediction": "black",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a skateboarder in the photograph that is male?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the gray floor clean and light?",
+            "image_path": "data/images/images/n98544.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the man that is to the right of the woman wearing a suit?",
+            "image_path": "data/images/images/n540852.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "In which part of the photo is the drawer, the bottom or the top?",
+            "image_path": "data/images/images/n65866.jpg",
+            "qa_pairs": null,
+            "expected_answer": "top",
+            "model_prediction": "top",
+            "is_correct": true
+        },
+        {
+            "question": "Is the plastic toothbrush to the left or to the right of the mirror?",
+            "image_path": "data/images/images/n473688.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "right",
+            "is_correct": true
+        },
+        {
+            "question": "What is worn around the old person?",
+            "image_path": "data/images/images/n342511.jpg",
+            "qa_pairs": null,
+            "expected_answer": "jacket",
+            "model_prediction": "jeans",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of toy is inside the cabinets?",
+            "image_path": "data/images/images/n326988.jpg",
+            "qa_pairs": null,
+            "expected_answer": "doll",
+            "model_prediction": "stuffed animals",
+            "is_correct": false
+        },
+        {
+            "question": "What's the horse doing?",
+            "image_path": "data/images/images/n168412.jpg",
+            "qa_pairs": null,
+            "expected_answer": "running",
+            "model_prediction": "standing",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of furniture is in front of the bookshelf?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bed",
+            "model_prediction": "bookshelf",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a traffic light in front of the bridge that is crossing the street?",
+            "image_path": "data/images/images/n309148.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "On which side is the tennis ball, the right or the left?",
+            "image_path": "data/images/images/n560243.jpg",
+            "qa_pairs": null,
+            "expected_answer": "left",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "On which side are the blue plates?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": null,
+            "expected_answer": "left",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "Is the small mirror on the motorcycle?",
+            "image_path": "data/images/images/n390187.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the helmet blue?",
+            "image_path": "data/images/images/n411121.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the person on the field wearing a uniform?",
+            "image_path": "data/images/images/n260762.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "How large are the sprinkles that are sprinkled on the cupcakes?",
+            "image_path": "data/images/images/n296467.jpg",
+            "qa_pairs": null,
+            "expected_answer": "small",
+            "model_prediction": "small",
+            "is_correct": true
+        },
+        {
+            "question": "Are the pants both short and black?",
+            "image_path": "data/images/images/n202379.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is the powder lying on top of?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bed",
+            "model_prediction": "table",
+            "is_correct": false
+        },
+        {
+            "question": "What is the plant in?",
+            "image_path": "data/images/images/n578564.jpg",
+            "qa_pairs": null,
+            "expected_answer": "flower pot",
+            "model_prediction": "sink",
+            "is_correct": false
+        },
+        {
+            "question": "What is the animal to the left of the brown animal?",
+            "image_path": "data/images/images/n324908.jpg",
+            "qa_pairs": null,
+            "expected_answer": "horse",
+            "model_prediction": "horse",
+            "is_correct": true
+        },
+        {
+            "question": "What are the people in front of?",
+            "image_path": "data/images/images/n115614.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stores",
+            "model_prediction": "gate",
+            "is_correct": false
+        },
+        {
+            "question": "Are the white shoes behind the person that the hat is worn on?",
+            "image_path": "data/images/images/n573460.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the dresser on the right side or on the left?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": null,
+            "expected_answer": "left",
+            "model_prediction": "left",
+            "is_correct": true
+        },
+        {
+            "question": "How big is the black vehicle?",
+            "image_path": "data/images/images/n522733.jpg",
+            "qa_pairs": null,
+            "expected_answer": "large",
+            "model_prediction": "large",
+            "is_correct": true
+        },
+        {
+            "question": "Who is in front of the frame made of wood?",
+            "image_path": "data/images/images/n234683.jpg",
+            "qa_pairs": null,
+            "expected_answer": "man",
+            "model_prediction": "man",
+            "is_correct": true
+        },
+        {
+            "question": "The woman that to the right of the elephant sits on what?",
+            "image_path": "data/images/images/n119944.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bench",
+            "model_prediction": "ground",
+            "is_correct": false
+        },
+        {
+            "question": "What is common to the door and the kitten?",
+            "image_path": "data/images/images/n567860.jpg",
+            "qa_pairs": null,
+            "expected_answer": "color",
+            "model_prediction": "color",
+            "is_correct": true
+        },
+        {
+            "question": "Is the container that looks brown made of paper?",
+            "image_path": "data/images/images/n4777.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the container made of plastic light and blue?",
+            "image_path": "data/images/images/n579256.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What is the item of furniture to the right of the lady that is looking down at the cake called?",
+            "image_path": "data/images/images/n111390.jpg",
+            "qa_pairs": null,
+            "expected_answer": "table",
+            "model_prediction": "chair",
+            "is_correct": false
+        },
+        {
+            "question": "Do the flowers look white?",
+            "image_path": "data/images/images/n23762.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Which side of the photo is the young surfer on?",
+            "image_path": "data/images/images/n488874.jpg",
+            "qa_pairs": null,
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "What is the laptop sitting on top of?",
+            "image_path": "data/images/images/n4777.jpg",
+            "qa_pairs": null,
+            "expected_answer": "table",
+            "model_prediction": "table",
+            "is_correct": true
+        },
+        {
+            "question": "Do the tree leaves look dried?",
+            "image_path": "data/images/images/n219840.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is that jersey pink and sleeveless?",
+            "image_path": "data/images/images/n259002.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Behind what vehicles are the buildings?",
+            "image_path": "data/images/images/n406334.jpg",
+            "qa_pairs": null,
+            "expected_answer": "cars",
+            "model_prediction": "bus",
+            "is_correct": false
+        },
+        {
+            "question": "How tall is the house to the right of the skater?",
+            "image_path": "data/images/images/n299528.jpg",
+            "qa_pairs": null,
+            "expected_answer": "short",
+            "model_prediction": "tall",
+            "is_correct": false
+        },
+        {
+            "question": "Does the tie have short length?",
+            "image_path": "data/images/images/n262929.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the wall different in color than the keyboard?",
+            "image_path": "data/images/images/n240973.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Are both the sky and the shirt the same color?",
+            "image_path": "data/images/images/n272313.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Does the vegetable that is not small look yellow?",
+            "image_path": "data/images/images/n500209.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the color of the cake different than the plate?",
+            "image_path": "data/images/images/n200692.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What is on the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": null,
+            "expected_answer": "refrigerator",
+            "model_prediction": "book",
+            "is_correct": false
+        },
+        {
+            "question": "Are the shorts different in color than the pants?",
+            "image_path": "data/images/images/n127705.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What appliance is sitting in front of the wall?",
+            "image_path": "data/images/images/n280089.jpg",
+            "qa_pairs": null,
+            "expected_answer": "stove",
+            "model_prediction": "refrigerator",
+            "is_correct": false
+        },
+        {
+            "question": "What is the piece of furniture to the right of the lamps on the left side?",
+            "image_path": "data/images/images/n520071.jpg",
+            "qa_pairs": null,
+            "expected_answer": "bookcase",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "Is the umbrella blue and metallic?",
+            "image_path": "data/images/images/n95904.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Are the words red?",
+            "image_path": "data/images/images/n315859.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What animal is young?",
+            "image_path": "data/images/images/n567860.jpg",
+            "qa_pairs": null,
+            "expected_answer": "kitten",
+            "model_prediction": "cat",
+            "is_correct": false
+        },
+        {
+            "question": "How large is the sailboat below the airplane?",
+            "image_path": "data/images/images/n386688.jpg",
+            "qa_pairs": null,
+            "expected_answer": "large",
+            "model_prediction": "large",
+            "is_correct": true
+        },
+        {
+            "question": "Are the computer monitor and the picture frame made of the same material?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "How is the clothing item that is open called?",
+            "image_path": "data/images/images/n313060.jpg",
+            "qa_pairs": null,
+            "expected_answer": "sweatshirt",
+            "model_prediction": "shirt",
+            "is_correct": false
+        },
+        {
+            "question": "Are the spectators that are sitting-down watching the pitcher?",
+            "image_path": "data/images/images/n485969.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the hanging device called?",
+            "image_path": "data/images/images/n262920.jpg",
+            "qa_pairs": null,
+            "expected_answer": "screen",
+            "model_prediction": "screen",
+            "is_correct": true
+        },
+        {
+            "question": "The furry animal near the window is lying on what?",
+            "image_path": "data/images/images/n65885.jpg",
+            "qa_pairs": null,
+            "expected_answer": "carpet",
+            "model_prediction": "ground",
+            "is_correct": false
+        },
+        {
+            "question": "What's the girl holding?",
+            "image_path": "data/images/images/n137182.jpg",
+            "qa_pairs": null,
+            "expected_answer": "surfboard",
+            "model_prediction": "surfboard",
+            "is_correct": true
+        },
+        {
+            "question": "Are there either apples or bananas that are not brown?",
+            "image_path": "data/images/images/n222915.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What device is under the computer monitor?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": null,
+            "expected_answer": "keyboard",
+            "model_prediction": "monitor",
+            "is_correct": false
+        },
+        {
+            "question": "Is the size of the trash bin small?",
+            "image_path": "data/images/images/n249639.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Do both the device that is white and the on TV to the right of the lamp look small?",
+            "image_path": "data/images/images/n536256.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Does the helmet look tan?",
+            "image_path": "data/images/images/n88366.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What material is the cake stand, metal or glass?",
+            "image_path": "data/images/images/n238266.jpg",
+            "qa_pairs": null,
+            "expected_answer": "metal",
+            "model_prediction": "metal",
+            "is_correct": true
+        },
+        {
+            "question": "Is the countertop above a refrigerator?",
+            "image_path": "data/images/images/n35676.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Who is sleeping?",
+            "image_path": "data/images/images/n162586.jpg",
+            "qa_pairs": null,
+            "expected_answer": "woman",
+            "model_prediction": "man",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any gloves or hats that are not large?",
+            "image_path": "data/images/images/n460556.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What do you think is the vehicle to the right of the woman that is wearing pants?",
+            "image_path": "data/images/images/n24526.jpg",
+            "qa_pairs": null,
+            "expected_answer": "car",
+            "model_prediction": "van",
+            "is_correct": false
+        },
+        {
+            "question": "How clean is the floor?",
+            "image_path": "data/images/images/n98544.jpg",
+            "qa_pairs": null,
+            "expected_answer": "clean",
+            "model_prediction": "clean",
+            "is_correct": true
+        },
+        {
+            "question": "Are the trees green?",
+            "image_path": "data/images/images/n202379.jpg",
+            "qa_pairs": null,
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is this a red suitcase?",
+            "image_path": "data/images/images/n575770.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the plastic helmet to the left of a woman?",
+            "image_path": "data/images/images/n471866.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "The small sink has which shape?",
+            "image_path": "data/images/images/n499081.jpg",
+            "qa_pairs": null,
+            "expected_answer": "square",
+            "model_prediction": "square",
+            "is_correct": true
+        },
+        {
+            "question": "Is the name tag the same color as the collar?",
+            "image_path": "data/images/images/n52544.jpg",
+            "qa_pairs": null,
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        }
+    ]
+}

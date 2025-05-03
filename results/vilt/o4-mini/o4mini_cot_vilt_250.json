@@ -1,0 +1,5212 @@
+{
+    "test_type": "cot",
+    "openai_model_name": "o4-mini-2025-04-16",
+    "model_dir": "phucd/vilt-gqa-ft",
+    "accuracy": 0.264,
+    "correct_count": 66,
+    "total_count": 250,
+    "results": [
+        {
+            "question": "Does the hat that looks black and white look closed and Adidas?",
+            "image_path": "data/images/images/n274905.jpg",
+            "qa_pairs": [
+                [
+                    "Is a hat visible?",
+                    "no"
+                ],
+                [
+                    "Does the hat have black color?",
+                    "no"
+                ],
+                [
+                    "Does the hat have white color?",
+                    "no"
+                ],
+                [
+                    "Is the hat closed?",
+                    "no"
+                ],
+                [
+                    "Is an Adidas logo visible on the hat?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "How big are the horses?",
+            "image_path": "data/images/images/n210269.jpg",
+            "qa_pairs": [
+                [
+                    "Is a horse visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is a person standing next to the horse?",
+                    "no"
+                ],
+                [
+                    "Which is taller\u2014the horse or the person?",
+                    "lady"
+                ],
+                [
+                    "Is a fence visible behind the horse?",
+                    "no"
+                ],
+                [
+                    "Does the horse\u2019s back rise above the fence top?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "large",
+            "model_prediction": "tall",
+            "is_correct": false
+        },
+        {
+            "question": "How big is the round cake?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cake visible?",
+                    "no"
+                ],
+                [
+                    "Is the cake round?",
+                    "yes"
+                ],
+                [
+                    "Which size\u2014small, medium, or large\u2014best describes the cake?",
+                    "small"
+                ]
+            ],
+            "expected_answer": "small",
+            "model_prediction": "small",
+            "is_correct": true
+        },
+        {
+            "question": "Are there any benches or bandages?",
+            "image_path": "data/images/images/n71728.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bench visible?",
+                    "yes"
+                ],
+                [
+                    "Is a bandage visible?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the color of the blanket different than the color of the lamp?",
+            "image_path": "data/images/images/n432591.jpg",
+            "qa_pairs": [
+                [
+                    "Is a blanket visible?",
+                    "no"
+                ],
+                [
+                    "What color is the blanket?",
+                    "gray"
+                ],
+                [
+                    "Is a lamp visible?",
+                    "no"
+                ],
+                [
+                    "What color is the lamp?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Which material is the bench which is to the left of the lamp made of, concrete or iron?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bench visible to the left of the lamp?",
+                    "yes"
+                ],
+                [
+                    "What material is the bench made of?",
+                    "concrete"
+                ]
+            ],
+            "expected_answer": "concrete",
+            "model_prediction": "concrete",
+            "is_correct": true
+        },
+        {
+            "question": "What are the flowers in front of?",
+            "image_path": "data/images/images/n6908.jpg",
+            "qa_pairs": [
+                [
+                    "Are flowers visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is an object located directly behind the flowers?",
+                    "yes"
+                ],
+                [
+                    "What type of object is directly behind the flowers?",
+                    "screen"
+                ]
+            ],
+            "expected_answer": "christmas light",
+            "model_prediction": "screen",
+            "is_correct": false
+        },
+        {
+            "question": "In front of what is the ocean?",
+            "image_path": "data/images/images/n386688.jpg",
+            "qa_pairs": [
+                [
+                    "Is an ocean visible?",
+                    "yes"
+                ],
+                [
+                    "What object is behind the ocean?",
+                    "station"
+                ]
+            ],
+            "expected_answer": "trees",
+            "model_prediction": "station",
+            "is_correct": false
+        },
+        {
+            "question": "What food isn't baked?",
+            "image_path": "data/images/images/n296467.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cake visible?",
+                    "no"
+                ],
+                [
+                    "Is the cake baked?",
+                    "yes"
+                ],
+                [
+                    "Is a salad visible?",
+                    "no"
+                ],
+                [
+                    "Is the salad baked?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "cookies",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a traffic light to the left of the minivan?",
+            "image_path": "data/images/images/n486200.jpg",
+            "qa_pairs": [
+                [
+                    "Is a minivan visible?",
+                    "no"
+                ],
+                [
+                    "Is a traffic light visible?",
+                    "yes"
+                ],
+                [
+                    "Which side of the minivan is the traffic light on?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is in front of the barn?",
+            "image_path": "data/images/images/n143935.jpg",
+            "qa_pairs": [
+                [
+                    "Is a barn visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly in front of the barn?",
+                    "washing machine"
+                ]
+            ],
+            "expected_answer": "trees",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is the black hair long or short?",
+            "image_path": "data/images/images/n468864.jpg",
+            "qa_pairs": [
+                [
+                    "Is hair visible?",
+                    "no"
+                ],
+                [
+                    "What color is the visible hair?",
+                    "brown"
+                ],
+                [
+                    "Which length\u2014long or short\u2014best describes the visible hair?",
+                    "long"
+                ]
+            ],
+            "expected_answer": "long",
+            "model_prediction": "unknown",
+            "is_correct": false
+        },
+        {
+            "question": "Are there cones behind the hydrant made of metal?",
+            "image_path": "data/images/images/n12404.jpg",
+            "qa_pairs": [
+                [
+                    "Is a hydrant visible?",
+                    "yes"
+                ],
+                [
+                    "Are cones visible in the image?",
+                    "no"
+                ],
+                [
+                    "Are any cones behind the hydrant?",
+                    "yes"
+                ],
+                [
+                    "What material are the cones behind the hydrant?",
+                    "metal"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Do the jeans look blue and short?",
+            "image_path": "data/images/images/n86120.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pair of jeans visible?",
+                    "yes"
+                ],
+                [
+                    "Are the jeans blue?",
+                    "no"
+                ],
+                [
+                    "Are the jeans short?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "On which side of the photo is the person, the left or the right?",
+            "image_path": "data/images/images/n496803.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible in the photo?",
+                    "no"
+                ],
+                [
+                    "Which side\u2014left or right\u2014of the photo is the person on?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "Does the person to the right of the frisbee seem to be standing?",
+            "image_path": "data/images/images/n187544.jpg",
+            "qa_pairs": [
+                [
+                    "Is a frisbee visible?",
+                    "no"
+                ],
+                [
+                    "Is there a person to the right of the frisbee?",
+                    "no"
+                ],
+                [
+                    "Is that person standing?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Does the speaker to the left of the other speaker look blue?",
+            "image_path": "data/images/images/n275148.jpg",
+            "qa_pairs": [
+                [
+                    "Are two speakers visible in the image?",
+                    "yes"
+                ],
+                [
+                    "What color is the speaker on the left side of the image?",
+                    "black"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Who is the baby sitting atop?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": [
+                [
+                    "Is a baby visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is there an adult beneath the baby?",
+                    "yes"
+                ],
+                [
+                    "Is the baby sitting atop that adult?",
+                    "yes"
+                ],
+                [
+                    "What is the adult\u2019s relation to the baby?",
+                    "small"
+                ]
+            ],
+            "expected_answer": "woman",
+            "model_prediction": "adult",
+            "is_correct": false
+        },
+        {
+            "question": "Does the napkin have the same color as the notebook?",
+            "image_path": "data/images/images/n403734.jpg",
+            "qa_pairs": [
+                [
+                    "Is a napkin visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the napkin?",
+                    "white"
+                ],
+                [
+                    "Is a notebook visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the notebook?",
+                    "green"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Do you think the tennis racket is wooden?",
+            "image_path": "data/images/images/n413319.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tennis racket visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the racket frame?",
+                    "black"
+                ],
+                [
+                    "Does the racket frame show a wood grain?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Does the cake to the left of the knife look baked and triangular?",
+            "image_path": "data/images/images/n381072.jpg",
+            "qa_pairs": [
+                [
+                    "Is a knife visible?",
+                    "no"
+                ],
+                [
+                    "Is a cake visible to the left of the knife?",
+                    "yes"
+                ],
+                [
+                    "Does that cake appear baked?",
+                    "yes"
+                ],
+                [
+                    "Does that cake appear triangular?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Do the vase and the toilet brush have the same color?",
+            "image_path": "data/images/images/n59147.jpg",
+            "qa_pairs": [
+                [
+                    "Is a vase visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the vase?",
+                    "blue"
+                ],
+                [
+                    "Is a toilet brush visible?",
+                    "no"
+                ],
+                [
+                    "What color is the toilet brush?",
+                    "silver"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Are there ladies in front of the plates?",
+            "image_path": "data/images/images/n433532.jpg",
+            "qa_pairs": [
+                [
+                    "Is at least one plate visible?",
+                    "yes"
+                ],
+                [
+                    "Is at least one lady visible?",
+                    "no"
+                ],
+                [
+                    "Is a visible lady located in front of a visible plate?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the bag sitting on top of?",
+            "image_path": "data/images/images/n206785.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bag visible in the image?",
+                    "no"
+                ],
+                [
+                    "What object is directly below the bag?",
+                    "glove"
+                ]
+            ],
+            "expected_answer": "cabinet",
+            "model_prediction": "glove",
+            "is_correct": false
+        },
+        {
+            "question": "What is the light blue clothing item?",
+            "image_path": "data/images/images/n195249.jpg",
+            "qa_pairs": [
+                [
+                    "Is a clothing item visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the visible clothing item?",
+                    "blue"
+                ],
+                [
+                    "What type of clothing item is that?",
+                    "shirt"
+                ]
+            ],
+            "expected_answer": "tank top",
+            "model_prediction": "shirt.",
+            "is_correct": false
+        },
+        {
+            "question": "How long is the dark shirt?",
+            "image_path": "data/images/images/n305495.jpg",
+            "qa_pairs": [
+                [
+                    "Is a dark shirt visible?",
+                    "yes"
+                ],
+                [
+                    "Which sleeve length best describes the shirt?",
+                    "short"
+                ],
+                [
+                    "Which body part does the shirt\u2019s hem reach?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "long",
+            "model_prediction": "short",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the image are the baseball players?",
+            "image_path": "data/images/images/n538684.jpg",
+            "qa_pairs": [
+                [
+                    "Are baseball players visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Are the baseball players located on the left side of the image?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the picture is the silver spoon?",
+            "image_path": "data/images/images/n336443.jpg",
+            "qa_pairs": [
+                [
+                    "Is a spoon visible in the picture?",
+                    "no"
+                ],
+                [
+                    "What is the color of the spoon?",
+                    "white"
+                ],
+                [
+                    "Which side of the picture is the spoon on?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is the traffic signal different in color than the platform?",
+            "image_path": "data/images/images/n153118.jpg",
+            "qa_pairs": [
+                [
+                    "Is a traffic signal visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the traffic signal?",
+                    "black"
+                ],
+                [
+                    "Is a platform visible?",
+                    "no"
+                ],
+                [
+                    "What color is the platform?",
+                    "black"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "unknown",
+            "is_correct": false
+        },
+        {
+            "question": "What is the toilet paper in front of?",
+            "image_path": "data/images/images/n162108.jpg",
+            "qa_pairs": [
+                [
+                    "Is toilet paper visible?",
+                    "no"
+                ],
+                [
+                    "Which object is behind the toilet paper?",
+                    "toilet"
+                ]
+            ],
+            "expected_answer": "toilet",
+            "model_prediction": "toilet",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of furniture is stacked?",
+            "image_path": "data/images/images/n520071.jpg",
+            "qa_pairs": [
+                [
+                    "Are there multiple furniture pieces stacked on top of each other?",
+                    "yes"
+                ],
+                [
+                    "Which kind of furniture is arranged in that stack?",
+                    "desk"
+                ]
+            ],
+            "expected_answer": "bookcase",
+            "model_prediction": "desk",
+            "is_correct": false
+        },
+        {
+            "question": "What is the bag resting on?",
+            "image_path": "data/images/images/n59147.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bag visible in the image?",
+                    "no"
+                ],
+                [
+                    "Which object is directly beneath the bag?",
+                    "keyboard"
+                ]
+            ],
+            "expected_answer": "chair",
+            "model_prediction": "keyboard",
+            "is_correct": false
+        },
+        {
+            "question": "Who is wearing a sweatshirt?",
+            "image_path": "data/images/images/n159802.jpg",
+            "qa_pairs": [
+                [
+                    "Is a man visible?",
+                    "no"
+                ],
+                [
+                    "Is a woman visible?",
+                    "no"
+                ],
+                [
+                    "Is the man wearing a sweatshirt?",
+                    "yes"
+                ],
+                [
+                    "Is the woman wearing a sweatshirt?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "girl",
+            "model_prediction": "both",
+            "is_correct": false
+        },
+        {
+            "question": "What is in front of the bricks?",
+            "image_path": "data/images/images/n445353.jpg",
+            "qa_pairs": [
+                [
+                    "Are bricks visible in the image?",
+                    "no"
+                ],
+                [
+                    "Which object is located in front of the bricks?",
+                    "dragon"
+                ]
+            ],
+            "expected_answer": "chair",
+            "model_prediction": "dragon",
+            "is_correct": false
+        },
+        {
+            "question": "Do you see rolling pins or microwaves in this scene?",
+            "image_path": "data/images/images/n578564.jpg",
+            "qa_pairs": [
+                [
+                    "Is a rolling pin visible?",
+                    "yes"
+                ],
+                [
+                    "Is a microwave visible?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "both",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a brown bag or umbrella?",
+            "image_path": "data/images/images/n313060.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bag visible?",
+                    "yes"
+                ],
+                [
+                    "What color is that bag?",
+                    "blue"
+                ],
+                [
+                    "Is an umbrella visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the bench in front of?",
+            "image_path": "data/images/images/n329479.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bench visible?",
+                    "yes"
+                ],
+                [
+                    "Which object is behind the bench?",
+                    "elephant"
+                ]
+            ],
+            "expected_answer": "trees",
+            "model_prediction": "elephant",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any black horses or zebras?",
+            "image_path": "data/images/images/n579928.jpg",
+            "qa_pairs": [
+                [
+                    "Is any horse visible?",
+                    "yes"
+                ],
+                [
+                    "Is any visible horse black?",
+                    "no"
+                ],
+                [
+                    "Is a zebra visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What devices are the cables behind of?",
+            "image_path": "data/images/images/n262920.jpg",
+            "qa_pairs": [
+                [
+                    "Are cables present in the image?",
+                    "no"
+                ],
+                [
+                    "Is there a device immediately in front of the cables?",
+                    "no"
+                ],
+                [
+                    "Which device is in front of the cables?",
+                    "laptop"
+                ]
+            ],
+            "expected_answer": "laptops",
+            "model_prediction": "laptop",
+            "is_correct": false
+        },
+        {
+            "question": "Who is the coffee table in front of?",
+            "image_path": "data/images/images/n526228.jpg",
+            "qa_pairs": [
+                [
+                    "Is a coffee table visible?",
+                    "no"
+                ],
+                [
+                    "Is there a person positioned behind the coffee table?",
+                    "yes"
+                ],
+                [
+                    "Which person is behind the coffee table?",
+                    "sofa"
+                ]
+            ],
+            "expected_answer": "man",
+            "model_prediction": "sofa",
+            "is_correct": false
+        },
+        {
+            "question": "Is the lamp made of the same material as the van?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": [
+                [
+                    "Is a lamp visible?",
+                    "no"
+                ],
+                [
+                    "Is a van visible?",
+                    "no"
+                ],
+                [
+                    "What material is the lamp made of?",
+                    "metal"
+                ],
+                [
+                    "What material is the van made of?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What hangs above the crowd?",
+            "image_path": "data/images/images/n146555.jpg",
+            "qa_pairs": [
+                [
+                    "Is a crowd visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is there an object hanging above the crowd?",
+                    "yes"
+                ],
+                [
+                    "Which object is hanging above the crowd?",
+                    "speaker"
+                ]
+            ],
+            "expected_answer": "street light",
+            "model_prediction": "speaker",
+            "is_correct": false
+        },
+        {
+            "question": "What device is sitting beside the bag?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bag visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is there an object beside the bag?",
+                    "no"
+                ],
+                [
+                    "Which object is beside the bag?",
+                    "speaker"
+                ],
+                [
+                    "Is that object a device?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "laptop",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "How big is the glass that contains doors?",
+            "image_path": "data/images/images/n246334.jpg",
+            "qa_pairs": [
+                [
+                    "Is a glass enclosure visible?",
+                    "yes"
+                ],
+                [
+                    "Are doors inside that glass enclosure?",
+                    "yes"
+                ],
+                [
+                    "Which size\u2014small, medium, or large\u2014best describes that glass enclosure?",
+                    "small"
+                ]
+            ],
+            "expected_answer": "large",
+            "model_prediction": "small",
+            "is_correct": false
+        },
+        {
+            "question": "Are the condiments in a blender?",
+            "image_path": "data/images/images/n314171.jpg",
+            "qa_pairs": [
+                [
+                    "Is a blender visible?",
+                    "no"
+                ],
+                [
+                    "Are condiments visible?",
+                    "yes"
+                ],
+                [
+                    "Are the condiments inside the blender?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture is in front of the window that looks square?",
+            "image_path": "data/images/images/n283587.jpg",
+            "qa_pairs": [
+                [
+                    "Is a window visible?",
+                    "yes"
+                ],
+                [
+                    "Is there furniture directly in front of the window?",
+                    "no"
+                ],
+                [
+                    "Which shape best describes the furniture in front of the window?",
+                    "rectangular"
+                ],
+                [
+                    "What type of furniture is in front of the window?",
+                    "cabinet"
+                ]
+            ],
+            "expected_answer": "sofa",
+            "model_prediction": "cabinet",
+            "is_correct": false
+        },
+        {
+            "question": "Are the white pants short or long?",
+            "image_path": "data/images/images/n98540.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pair of pants visible?",
+                    "yes"
+                ],
+                [
+                    "What color are those pants?",
+                    "gray"
+                ],
+                [
+                    "Which length\u2014short or long\u2014best describes the white pants?",
+                    "long"
+                ]
+            ],
+            "expected_answer": "short",
+            "model_prediction": "long",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of clothing is worn?",
+            "image_path": "data/images/images/n357784.jpg",
+            "qa_pairs": [
+                [
+                    "Which upper-body garment is the person wearing?",
+                    "pants"
+                ],
+                [
+                    "Which style\u2014formal or casual\u2014best describes that garment?",
+                    "long sleeved"
+                ]
+            ],
+            "expected_answer": "shirt",
+            "model_prediction": "shirt",
+            "is_correct": true
+        },
+        {
+            "question": "What are the pieces of furniture underneath the table?",
+            "image_path": "data/images/images/n276011.jpg",
+            "qa_pairs": [
+                [
+                    "Is a table visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Are there chairs underneath the table?",
+                    "yes"
+                ],
+                [
+                    "Are there stools underneath the table?",
+                    "no"
+                ],
+                [
+                    "Are there benches underneath the table?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "chairs",
+            "model_prediction": "seats",
+            "is_correct": false
+        },
+        {
+            "question": "How large is the fork on top of the table?",
+            "image_path": "data/images/images/n170941.jpg",
+            "qa_pairs": [
+                [
+                    "Is a fork visible on top of the table?",
+                    "no"
+                ],
+                [
+                    "Which size category\u2014small, medium, or large\u2014best describes the fork on the table?",
+                    "large"
+                ]
+            ],
+            "expected_answer": "small",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is that table smooth and dark brown?",
+            "image_path": "data/images/images/n234722.jpg",
+            "qa_pairs": [
+                [
+                    "Is a table visible?",
+                    "yes"
+                ],
+                [
+                    "Is the table surface smooth?",
+                    "yes"
+                ],
+                [
+                    "Is the table color brown?",
+                    "no"
+                ],
+                [
+                    "Is the table shade dark?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there cakes near the plates?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": [
+                [
+                    "Is a plate visible?",
+                    "yes"
+                ],
+                [
+                    "Is a cake visible?",
+                    "no"
+                ],
+                [
+                    "Is any cake near a plate?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the written sign?",
+            "image_path": "data/images/images/n255161.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sign visible?",
+                    "yes"
+                ],
+                [
+                    "What word is written on the sign?",
+                    "street sign"
+                ]
+            ],
+            "expected_answer": "stop sign",
+            "model_prediction": "street sign",
+            "is_correct": false
+        },
+        {
+            "question": "What is the food that is not sliced called?",
+            "image_path": "data/images/images/n222915.jpg",
+            "qa_pairs": [
+                [
+                    "What type of food is on the left?",
+                    "egg"
+                ],
+                [
+                    "Is the food on the left sliced?",
+                    "no"
+                ],
+                [
+                    "What type of food is on the right?",
+                    "egg"
+                ],
+                [
+                    "Is the food on the right sliced?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "vegetables",
+            "model_prediction": "egg",
+            "is_correct": false
+        },
+        {
+            "question": "Are both the bookshelf and the chair made of the same material?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": [
+                [
+                    "What material is the bookshelf?",
+                    "wood"
+                ],
+                [
+                    "What material is the chair?",
+                    "plastic"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the palm made of the same material as the fence?",
+            "image_path": "data/images/images/n222297.jpg",
+            "qa_pairs": [
+                [
+                    "What material is the palm?",
+                    "metal"
+                ],
+                [
+                    "What material is the fence?",
+                    "metal"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is the length of the TV stand on the left?",
+            "image_path": "data/images/images/n275148.jpg",
+            "qa_pairs": [
+                [
+                    "Is a TV stand visible on the left side of the image?",
+                    "no"
+                ],
+                [
+                    "Is there a measuring tape aligned with that TV stand?",
+                    "no"
+                ],
+                [
+                    "What number is shown at the edge of the TV stand on the measuring tape?",
+                    "asian"
+                ],
+                [
+                    "What unit is displayed on that measuring tape?",
+                    "microwave"
+                ]
+            ],
+            "expected_answer": "short",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Does the book have the same color as the charger?",
+            "image_path": "data/images/images/n90294.jpg",
+            "qa_pairs": [
+                [
+                    "Is a book visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the book?",
+                    "yellow"
+                ],
+                [
+                    "Is a charger visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the charger?",
+                    "white"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which side of the photo is the cake on?",
+            "image_path": "data/images/images/n118102.jpg",
+            "qa_pairs": [
+                [
+                    "Is a photo visible?",
+                    "no"
+                ],
+                [
+                    "Is a cake visible in the photo?",
+                    "yes"
+                ],
+                [
+                    "Is the cake on the left side of the photo?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of clothing is not bright?",
+            "image_path": "data/images/images/n88933.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shirt visible?",
+                    "yes"
+                ],
+                [
+                    "Is the shirt bright?",
+                    "yes"
+                ],
+                [
+                    "Is a jacket visible?",
+                    "no"
+                ],
+                [
+                    "Is the jacket bright?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "t-shirt",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "What is she sitting in front of?",
+            "image_path": "data/images/images/n233607.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is there a horizontal surface directly in front of that person?",
+                    "no"
+                ],
+                [
+                    "What type of object is that surface?",
+                    "teddy bears"
+                ]
+            ],
+            "expected_answer": "table",
+            "model_prediction": "bears",
+            "is_correct": false
+        },
+        {
+            "question": "Which seems to be younger, the woman or the girl?",
+            "image_path": "data/images/images/n498712.jpg",
+            "qa_pairs": [
+                [
+                    "What age group best describes the woman?",
+                    "asian"
+                ],
+                [
+                    "What age group best describes the girl?",
+                    "asian"
+                ]
+            ],
+            "expected_answer": "girl",
+            "model_prediction": "girl",
+            "is_correct": true
+        },
+        {
+            "question": "Who is wearing the bracelet?",
+            "image_path": "data/images/images/n488874.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a person visible on the left?",
+                    "no"
+                ],
+                [
+                    "Is there a person visible on the right?",
+                    "no"
+                ],
+                [
+                    "Is the person on the left wearing a bracelet?",
+                    "yes"
+                ],
+                [
+                    "Is the person on the right wearing a bracelet?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "surfer",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "What do both the signal light and the road have in common?",
+            "image_path": "data/images/images/n243701.jpg",
+            "qa_pairs": [
+                [
+                    "Is a signal light visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the visible signal light?",
+                    "black"
+                ],
+                [
+                    "Is a road visible?",
+                    "yes"
+                ],
+                [
+                    "What color are the markings on the visible road?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "color",
+            "model_prediction": "dark",
+            "is_correct": false
+        },
+        {
+            "question": "Is the shirt made of cotton short sleeved and gray?",
+            "image_path": "data/images/images/n477702.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shirt visible?",
+                    "yes"
+                ],
+                [
+                    "What material is the shirt made of?",
+                    "leather"
+                ],
+                [
+                    "Are the sleeves short?",
+                    "yes"
+                ],
+                [
+                    "What is the color of the shirt?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What is in front of the doors that are on the front of the school?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": [
+                [
+                    "Is a school building visible?",
+                    "yes"
+                ],
+                [
+                    "Are there doors on the front of that school?",
+                    "yes"
+                ],
+                [
+                    "Which object is directly in front of those doors?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "stairs",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "Do you see chairs to the right of the towel?",
+            "image_path": "data/images/images/n140421.jpg",
+            "qa_pairs": [
+                [
+                    "Is a towel visible?",
+                    "yes"
+                ],
+                [
+                    "Is a chair visible?",
+                    "yes"
+                ],
+                [
+                    "Is any chair to the right of the towel?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Does the bridge above the water have huge size?",
+            "image_path": "data/images/images/n58220.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bridge visible?",
+                    "yes"
+                ],
+                [
+                    "Is that bridge above the water?",
+                    "no"
+                ],
+                [
+                    "What size is that bridge?",
+                    "small"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Does that cap look brown?",
+            "image_path": "data/images/images/n318684.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cap visible?",
+                    "no"
+                ],
+                [
+                    "What color is the cap?",
+                    "black"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which side of the photo is the lamp on?",
+            "image_path": "data/images/images/n472825.jpg",
+            "qa_pairs": [
+                [
+                    "Is a photo visible?",
+                    "no"
+                ],
+                [
+                    "Is a lamp visible?",
+                    "no"
+                ],
+                [
+                    "Is the lamp on the left side of the photo?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "left",
+            "model_prediction": "neither",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of device is sitting atop the chair?",
+            "image_path": "data/images/images/n532191.jpg",
+            "qa_pairs": [
+                [
+                    "Is a chair visible?",
+                    "no"
+                ],
+                [
+                    "Is a device resting on the chair?",
+                    "yes"
+                ],
+                [
+                    "Does the device have a visible physical keyboard?",
+                    "no"
+                ],
+                [
+                    "Is the device small enough to hold with one hand?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "laptop",
+            "model_prediction": "smartphone",
+            "is_correct": false
+        },
+        {
+            "question": "Who is on the red dirt?",
+            "image_path": "data/images/images/n130638.jpg",
+            "qa_pairs": [
+                [
+                    "Is red dirt visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is there a person on the red dirt?",
+                    "yes"
+                ],
+                [
+                    "Is the person wearing a baseball uniform?",
+                    "yes"
+                ],
+                [
+                    "Which position does the person on the red dirt play?",
+                    "deep"
+                ]
+            ],
+            "expected_answer": "umpire",
+            "model_prediction": "deep",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture is yellow?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": [
+                [
+                    "Which object in the image is yellow?",
+                    "frame"
+                ],
+                [
+                    "Is the yellow object furniture?",
+                    "yes"
+                ],
+                [
+                    "Which furniture type is the yellow object?",
+                    "shelf"
+                ]
+            ],
+            "expected_answer": "bed",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "What item of furniture is below the light fixture that is below the sign?",
+            "image_path": "data/images/images/n150962.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sign visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly below the sign?",
+                    "street sign"
+                ],
+                [
+                    "Which item of furniture is directly below the light fixture?",
+                    "chair"
+                ]
+            ],
+            "expected_answer": "chair",
+            "model_prediction": "chair",
+            "is_correct": true
+        },
+        {
+            "question": "What is wrapped around the vehicle behind the building?",
+            "image_path": "data/images/images/n357126.jpg",
+            "qa_pairs": [
+                [
+                    "Is a building visible?",
+                    "yes"
+                ],
+                [
+                    "Is a vehicle located behind the building?",
+                    "no"
+                ],
+                [
+                    "What object is wrapped around the vehicle?",
+                    "cap"
+                ]
+            ],
+            "expected_answer": "window",
+            "model_prediction": "nothing",
+            "is_correct": false
+        },
+        {
+            "question": "Is the sculpture made of the same material as the manhole cover?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sculpture visible?",
+                    "no"
+                ],
+                [
+                    "Is a manhole cover visible?",
+                    "yes"
+                ],
+                [
+                    "Which material is the sculpture made of?",
+                    "metal"
+                ],
+                [
+                    "Which material is the manhole cover made of?",
+                    "metal"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What are the items of furniture that are to the right of the refrigerator made of stainless steel?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": [
+                [
+                    "Is a refrigerator visible?",
+                    "no"
+                ],
+                [
+                    "Which furniture item is immediately to the right of the refrigerator?",
+                    "cabinet"
+                ],
+                [
+                    "Which furniture item is two positions to the right of the refrigerator?",
+                    "cabinet"
+                ],
+                [
+                    "What material is the furniture item immediately to the right of the refrigerator?",
+                    "cabinet"
+                ],
+                [
+                    "What material is the furniture item two positions to the right of the refrigerator?",
+                    "cabinet"
+                ]
+            ],
+            "expected_answer": "cabinets",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Does the car to the left of the girl look black?",
+            "image_path": "data/images/images/n200907.jpg",
+            "qa_pairs": [
+                [
+                    "Is a girl visible?",
+                    "yes"
+                ],
+                [
+                    "Is a car visible to the left of the girl?",
+                    "yes"
+                ],
+                [
+                    "What color is the car to the left of the girl?",
+                    "green"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Do the doors behind the stairs look glass and rectangular?",
+            "image_path": "data/images/images/n346247.jpg",
+            "qa_pairs": [
+                [
+                    "Are doors visible behind the stairs?",
+                    "yes"
+                ],
+                [
+                    "Are the doors behind the stairs made of glass?",
+                    "yes"
+                ],
+                [
+                    "Are the doors behind the stairs rectangular?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What width is the sky?",
+            "image_path": "data/images/images/n219840.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sky region visible in the image?",
+                    "no"
+                ],
+                [
+                    "Does the sky region touch both the left and right edges of the image?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "wide",
+            "model_prediction": "zero",
+            "is_correct": false
+        },
+        {
+            "question": "Are both the oven and the light fixture made of the same material?",
+            "image_path": "data/images/images/n548534.jpg",
+            "qa_pairs": [
+                [
+                    "What material is the oven made of?",
+                    "wood"
+                ],
+                [
+                    "What material is the light fixture made of?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is the bread on the left side?",
+            "image_path": "data/images/images/n181210.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bread visible?",
+                    "yes"
+                ],
+                [
+                    "Which side\u2014left or right\u2014best describes the location of the bread?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is hanging above the train?",
+            "image_path": "data/images/images/n525029.jpg",
+            "qa_pairs": [
+                [
+                    "Is there any object hanging above the train?",
+                    "yes"
+                ],
+                [
+                    "Is the object above the train emitting light?",
+                    "yes"
+                ],
+                [
+                    "Is the object above the train rectangular in shape?",
+                    "yes"
+                ],
+                [
+                    "Does the object above the train display text?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "wires",
+            "model_prediction": "sign",
+            "is_correct": false
+        },
+        {
+            "question": "Does the towel have a different color than the floor?",
+            "image_path": "data/images/images/n141939.jpg",
+            "qa_pairs": [
+                [
+                    "Is a towel visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the towel?",
+                    "white"
+                ],
+                [
+                    "What color is the floor?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is there either a black calculator or chair?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": [
+                [
+                    "Is a calculator visible?",
+                    "yes"
+                ],
+                [
+                    "Is the calculator black?",
+                    "no"
+                ],
+                [
+                    "Is a chair visible?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What color is the knife block on the counter?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": [
+                [
+                    "Is a knife block visible?",
+                    "no"
+                ],
+                [
+                    "Is the knife block on the counter?",
+                    "yes"
+                ],
+                [
+                    "What color is the knife block?",
+                    "brown"
+                ]
+            ],
+            "expected_answer": "light brown",
+            "model_prediction": "brown",
+            "is_correct": true
+        },
+        {
+            "question": "How fat is the charger that is plugged into the laptop computer?",
+            "image_path": "data/images/images/n532191.jpg",
+            "qa_pairs": [
+                [
+                    "Is a laptop computer visible?",
+                    "no"
+                ],
+                [
+                    "Is a charger plugged into the laptop computer?",
+                    "yes"
+                ],
+                [
+                    "Which thickness\u2014thin, medium, or thick\u2014best describes the charger?",
+                    "thick"
+                ]
+            ],
+            "expected_answer": "skinny",
+            "model_prediction": "thick",
+            "is_correct": false
+        },
+        {
+            "question": "Which material makes up the pillow, cloth or leather?",
+            "image_path": "data/images/images/n181355.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pillow visible?",
+                    "yes"
+                ],
+                [
+                    "What material is the pillow?",
+                    "plastic"
+                ]
+            ],
+            "expected_answer": "cloth",
+            "model_prediction": "neither",
+            "is_correct": false
+        },
+        {
+            "question": "Is the cow small and still?",
+            "image_path": "data/images/images/n146555.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cow visible?",
+                    "yes"
+                ],
+                [
+                    "Is the cow small?",
+                    "yes"
+                ],
+                [
+                    "Is the cow still?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture are the books sitting atop?",
+            "image_path": "data/images/images/n432591.jpg",
+            "qa_pairs": [
+                [
+                    "Are books visible in the image?",
+                    "no"
+                ],
+                [
+                    "Are the books resting on a piece of furniture?",
+                    "no"
+                ],
+                [
+                    "What type of furniture are the books sitting on?",
+                    "bed"
+                ]
+            ],
+            "expected_answer": "nightstand",
+            "model_prediction": "bed",
+            "is_correct": false
+        },
+        {
+            "question": "Does the oven door that looks square seem to be white?",
+            "image_path": "data/images/images/n278312.jpg",
+            "qa_pairs": [
+                [
+                    "Is an oven door visible?",
+                    "yes"
+                ],
+                [
+                    "What shape is the visible oven door?",
+                    "square"
+                ],
+                [
+                    "What color is the visible oven door?",
+                    "white"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of food is to the left of the egg?",
+            "image_path": "data/images/images/n100991.jpg",
+            "qa_pairs": [
+                [
+                    "Is an egg visible?",
+                    "yes"
+                ],
+                [
+                    "What food item is directly to the left of the egg?",
+                    "egg"
+                ]
+            ],
+            "expected_answer": "sausage",
+            "model_prediction": "egg",
+            "is_correct": false
+        },
+        {
+            "question": "Is the van pink and metallic?",
+            "image_path": "data/images/images/n256120.jpg",
+            "qa_pairs": [
+                [
+                    "Is a van visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the van?",
+                    "blue"
+                ],
+                [
+                    "What material is the van?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "In which part of the picture is the black olive, the top or the bottom?",
+            "image_path": "data/images/images/n200225.jpg",
+            "qa_pairs": [
+                [
+                    "Is an olive visible in the image?",
+                    "no"
+                ],
+                [
+                    "What color is the olive?",
+                    "green"
+                ],
+                [
+                    "Is the olive in the top half of the image?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "top",
+            "model_prediction": "bottom",
+            "is_correct": false
+        },
+        {
+            "question": "Who is looking down at the grass?",
+            "image_path": "data/images/images/n172618.jpg",
+            "qa_pairs": [
+                [
+                    "Is grass visible?",
+                    "yes"
+                ],
+                [
+                    "Is a man visible?",
+                    "no"
+                ],
+                [
+                    "Is a woman visible?",
+                    "no"
+                ],
+                [
+                    "Is the man's gaze directed downward?",
+                    "yes"
+                ],
+                [
+                    "Is the woman's gaze directed downward?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "girl",
+            "model_prediction": "nobody",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any tablecloths or forks?",
+            "image_path": "data/images/images/n181210.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tablecloth visible?",
+                    "no"
+                ],
+                [
+                    "Is a fork visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What vehicle is to the right of the backpack?",
+            "image_path": "data/images/images/n411121.jpg",
+            "qa_pairs": [
+                [
+                    "Is a backpack visible?",
+                    "yes"
+                ],
+                [
+                    "Is there an object to the right of the backpack?",
+                    "no"
+                ],
+                [
+                    "Which object is to the right of the backpack?",
+                    "bicycle"
+                ]
+            ],
+            "expected_answer": "van",
+            "model_prediction": "bicycle",
+            "is_correct": false
+        },
+        {
+            "question": "Does the plant have a different color than the bookcase?",
+            "image_path": "data/images/images/n207708.jpg",
+            "qa_pairs": [
+                [
+                    "Is a plant visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the plant?",
+                    "brown"
+                ],
+                [
+                    "Is a bookcase visible?",
+                    "no"
+                ],
+                [
+                    "What color is the bookcase?",
+                    "tan"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Where is the woman?",
+            "image_path": "data/images/images/n538039.jpg",
+            "qa_pairs": [
+                [
+                    "Is a woman visible?",
+                    "yes"
+                ],
+                [
+                    "Is the woman indoors?",
+                    "yes"
+                ],
+                [
+                    "Which room is the woman in?",
+                    "field"
+                ]
+            ],
+            "expected_answer": "grass",
+            "model_prediction": "field",
+            "is_correct": false
+        },
+        {
+            "question": "Is the logo green?",
+            "image_path": "data/images/images/n258500.jpg",
+            "qa_pairs": [
+                [
+                    "Is a logo visible?",
+                    "no"
+                ],
+                [
+                    "What color is the logo?",
+                    "black"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Of what color are the trees behind the fire truck?",
+            "image_path": "data/images/images/n480253.jpg",
+            "qa_pairs": [
+                [
+                    "Is a fire truck visible?",
+                    "yes"
+                ],
+                [
+                    "Are there trees behind the fire truck?",
+                    "yes"
+                ],
+                [
+                    "What color are the trees behind the fire truck?",
+                    "green"
+                ]
+            ],
+            "expected_answer": "brown",
+            "model_prediction": "green",
+            "is_correct": false
+        },
+        {
+            "question": "Does the skinny girl look blond?",
+            "image_path": "data/images/images/n148872.jpg",
+            "qa_pairs": [
+                [
+                    "Is a girl visible?",
+                    "yes"
+                ],
+                [
+                    "Does the visible girl appear skinny?",
+                    "yes"
+                ],
+                [
+                    "What is the hair color of the skinny girl?",
+                    "blond"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a lamp in this picture that is large?",
+            "image_path": "data/images/images/n526228.jpg",
+            "qa_pairs": [
+                [
+                    "Is a lamp visible in the picture?",
+                    "yes"
+                ],
+                [
+                    "Is any visible lamp large?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the animal that the person that is walking is leading?",
+            "image_path": "data/images/images/n187961.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person walking visible?",
+                    "yes"
+                ],
+                [
+                    "Is that person holding a leash?",
+                    "no"
+                ],
+                [
+                    "What animal is on the leash?",
+                    "sheep"
+                ]
+            ],
+            "expected_answer": "goat",
+            "model_prediction": "sheep",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any seals or bunnies in the picture?",
+            "image_path": "data/images/images/n493357.jpg",
+            "qa_pairs": [
+                [
+                    "Is a seal visible in the picture?",
+                    "yes"
+                ],
+                [
+                    "Is a bunny visible in the picture?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is the flag green?",
+            "image_path": "data/images/images/n256120.jpg",
+            "qa_pairs": [
+                [
+                    "Is a flag visible?",
+                    "no"
+                ],
+                [
+                    "What is the color of the flag?",
+                    "red"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which tone is the kite, light or dark?",
+            "image_path": "data/images/images/n507149.jpg",
+            "qa_pairs": [
+                [
+                    "Is a kite visible?",
+                    "no"
+                ],
+                [
+                    "Is the kite light or dark?",
+                    "dark"
+                ]
+            ],
+            "expected_answer": "light",
+            "model_prediction": "dark",
+            "is_correct": false
+        },
+        {
+            "question": "Is the white device to the right or to the left of the white bag?",
+            "image_path": "data/images/images/n367944.jpg",
+            "qa_pairs": [
+                [
+                    "Is a white device visible?",
+                    "no"
+                ],
+                [
+                    "Is a white bag visible?",
+                    "yes"
+                ],
+                [
+                    "Is the white device to the right of the white bag?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "neither",
+            "is_correct": false
+        },
+        {
+            "question": "Is the rug the same color as the flower?",
+            "image_path": "data/images/images/n167552.jpg",
+            "qa_pairs": [
+                [
+                    "Is a rug visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the rug?",
+                    "orange"
+                ],
+                [
+                    "Is a flower visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the flower?",
+                    "green"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any elephants or giraffes?",
+            "image_path": "data/images/images/n44249.jpg",
+            "qa_pairs": [
+                [
+                    "Is an elephant visible?",
+                    "yes"
+                ],
+                [
+                    "Is a giraffe visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What animal is the person that is walking leading?",
+            "image_path": "data/images/images/n187961.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a person visible who is walking?",
+                    "no"
+                ],
+                [
+                    "Is a leash visible in that person\u2019s hand?",
+                    "yes"
+                ],
+                [
+                    "Which animal is attached to the leash?",
+                    "sheep"
+                ]
+            ],
+            "expected_answer": "goat",
+            "model_prediction": "sheep",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of furniture is metallic?",
+            "image_path": "data/images/images/n500308.jpg",
+            "qa_pairs": [
+                [
+                    "Is a table visible?",
+                    "no"
+                ],
+                [
+                    "What material is the table?",
+                    "wood"
+                ],
+                [
+                    "Is a chair visible?",
+                    "no"
+                ],
+                [
+                    "What material is the chair?",
+                    "plastic"
+                ],
+                [
+                    "Is a cabinet visible?",
+                    "no"
+                ],
+                [
+                    "What material is the cabinet?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "table",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "On which side is the wood shelf?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": [
+                [
+                    "Is a wood shelf visible?",
+                    "no"
+                ],
+                [
+                    "Which side\u2014left or right\u2014is the wood shelf on?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "What pieces of furniture is the audience sitting on?",
+            "image_path": "data/images/images/n573460.jpg",
+            "qa_pairs": [
+                [
+                    "Is an audience visible?",
+                    "yes"
+                ],
+                [
+                    "Is there furniture visible under the audience?",
+                    "no"
+                ],
+                [
+                    "How many people can each furniture piece seat?",
+                    "table"
+                ],
+                [
+                    "Does each furniture piece have a backrest?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "chairs",
+            "model_prediction": "floor",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any computers near the tape?",
+            "image_path": "data/images/images/n315887.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tape visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is a computer visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is a computer near the tape?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the young person in front of the traffic sign?",
+            "image_path": "data/images/images/n393305.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible?",
+                    "no"
+                ],
+                [
+                    "Does the visible person appear young?",
+                    "no"
+                ],
+                [
+                    "Is a traffic sign visible?",
+                    "no"
+                ],
+                [
+                    "Is the visible person positioned in front of the traffic sign?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is the appliance on the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": [
+                [
+                    "Is an appliance visible on the floor?",
+                    "no"
+                ],
+                [
+                    "Does the appliance have a hose?",
+                    "no"
+                ],
+                [
+                    "Does the appliance have visible wheels?",
+                    "no"
+                ],
+                [
+                    "Which shape best describes the appliance\u2019s main body\u2014cylindrical or rectangular?",
+                    "rectangular"
+                ]
+            ],
+            "expected_answer": "refrigerator",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "What is the spoon sitting atop?",
+            "image_path": "data/images/images/n184385.jpg",
+            "qa_pairs": [
+                [
+                    "Is a spoon visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly beneath the spoon?",
+                    "remote control"
+                ]
+            ],
+            "expected_answer": "stove",
+            "model_prediction": "remote control",
+            "is_correct": false
+        },
+        {
+            "question": "What animal is walking on the ground?",
+            "image_path": "data/images/images/n335542.jpg",
+            "qa_pairs": [
+                [
+                    "Is an animal visible on the ground?",
+                    "yes"
+                ],
+                [
+                    "Is the animal walking?",
+                    "yes"
+                ],
+                [
+                    "Which animal is visible on the ground?",
+                    "polar bear"
+                ]
+            ],
+            "expected_answer": "birds",
+            "model_prediction": "polar bear",
+            "is_correct": false
+        },
+        {
+            "question": "How wide is the parking lot made of cement?",
+            "image_path": "data/images/images/n259949.jpg",
+            "qa_pairs": [
+                [
+                    "Is a parking lot visible?",
+                    "yes"
+                ],
+                [
+                    "Is that parking lot made of cement?",
+                    "no"
+                ],
+                [
+                    "Does the parking lot span the full width of the image?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "wide",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is the red shirt colorful or black and white?",
+            "image_path": "data/images/images/n485969.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shirt visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the shirt?",
+                    "blue"
+                ],
+                [
+                    "Is the shirt shown in black and white?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "black and white",
+            "model_prediction": "colorful",
+            "is_correct": false
+        },
+        {
+            "question": "How hard is the sidewalk?",
+            "image_path": "data/images/images/n131634.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sidewalk visible in the image?",
+                    "no"
+                ],
+                [
+                    "What material composes the sidewalk?",
+                    "concrete"
+                ],
+                [
+                    "Is the sidewalk surface smooth or rough?",
+                    "smooth"
+                ]
+            ],
+            "expected_answer": "hard",
+            "model_prediction": "hard",
+            "is_correct": true
+        },
+        {
+            "question": "What is the hair clip lying on top of?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": [
+                [
+                    "Is a hair clip visible?",
+                    "no"
+                ],
+                [
+                    "What object is directly beneath the hair clip?",
+                    "cell phone"
+                ]
+            ],
+            "expected_answer": "bed",
+            "model_prediction": "cellphone",
+            "is_correct": false
+        },
+        {
+            "question": "Is the toilet long?",
+            "image_path": "data/images/images/n240666.jpg",
+            "qa_pairs": [
+                [
+                    "Is a toilet visible?",
+                    "yes"
+                ],
+                [
+                    "Does the toilet bowl have an elongated shape?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of vehicle is parked behind the car?",
+            "image_path": "data/images/images/n131634.jpg",
+            "qa_pairs": [
+                [
+                    "Is a vehicle parked behind the car?",
+                    "no"
+                ],
+                [
+                    "What kind of vehicle is parked behind the car?",
+                    "car"
+                ]
+            ],
+            "expected_answer": "van",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Does the boy to the right of the person appear to be standing?",
+            "image_path": "data/images/images/n133585.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a boy to the right of a person?",
+                    "no"
+                ],
+                [
+                    "Is that boy standing?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What are the cups made of?",
+            "image_path": "data/images/images/n518912.jpg",
+            "qa_pairs": [
+                [
+                    "Are cups visible?",
+                    "no"
+                ],
+                [
+                    "Are the cups transparent?",
+                    "yes"
+                ],
+                [
+                    "What color are the cups?",
+                    "white"
+                ],
+                [
+                    "Do the cups have a glossy surface?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "porcelain",
+            "model_prediction": "glass",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either any fire hydrants or bicycles?",
+            "image_path": "data/images/images/n51002.jpg",
+            "qa_pairs": [
+                [
+                    "Is a fire hydrant visible?",
+                    "no"
+                ],
+                [
+                    "Is a bicycle visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Who is in front of the sign that is on top of the pole?",
+            "image_path": "data/images/images/n393305.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pole visible?",
+                    "yes"
+                ],
+                [
+                    "Is there a sign on top of the pole?",
+                    "no"
+                ],
+                [
+                    "Is a person visible in front of the sign?",
+                    "no"
+                ],
+                [
+                    "Which person is in front of the sign?",
+                    "stop sign"
+                ]
+            ],
+            "expected_answer": "girl",
+            "model_prediction": "nobody",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any green blankets or towels?",
+            "image_path": "data/images/images/n470920.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a green blanket?",
+                    "no"
+                ],
+                [
+                    "Is there a green towel?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Is the mirror above the fireplace?",
+            "image_path": "data/images/images/n23181.jpg",
+            "qa_pairs": [
+                [
+                    "Is a mirror visible?",
+                    "no"
+                ],
+                [
+                    "Is a fireplace visible?",
+                    "no"
+                ],
+                [
+                    "Is the mirror above the fireplace?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What is hanging from the table that is to the left of the guitar?",
+            "image_path": "data/images/images/n507959.jpg",
+            "qa_pairs": [
+                [
+                    "Is a guitar visible?",
+                    "yes"
+                ],
+                [
+                    "Is there a table to the left of the guitar?",
+                    "yes"
+                ],
+                [
+                    "Is an object hanging from that table?",
+                    "no"
+                ],
+                [
+                    "Which object is hanging from that table?",
+                    "computer"
+                ]
+            ],
+            "expected_answer": "purse",
+            "model_prediction": "nothing",
+            "is_correct": false
+        },
+        {
+            "question": "Is the batter in front of the umpire that is wearing a belt?",
+            "image_path": "data/images/images/n334278.jpg",
+            "qa_pairs": [
+                [
+                    "Is a batter visible?",
+                    "yes"
+                ],
+                [
+                    "Is an umpire visible?",
+                    "yes"
+                ],
+                [
+                    "Is the umpire wearing a belt?",
+                    "yes"
+                ],
+                [
+                    "Is the batter in front of the umpire?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Which color is the bag which is lying on top of the bed?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bag visible on the bed?",
+                    "yes"
+                ],
+                [
+                    "What color is the bag visible on the bed?",
+                    "brown"
+                ]
+            ],
+            "expected_answer": "green",
+            "model_prediction": "brown",
+            "is_correct": false
+        },
+        {
+            "question": "Is the shirt soft and maroon?",
+            "image_path": "data/images/images/n551964.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shirt visible?",
+                    "yes"
+                ],
+                [
+                    "Is the shirt soft?",
+                    "yes"
+                ],
+                [
+                    "Is the shirt maroon?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What kind of device is to the right of the speaker?",
+            "image_path": "data/images/images/n315887.jpg",
+            "qa_pairs": [
+                [
+                    "Is a speaker visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Which device is immediately to the right of the speaker?",
+                    "keyboard"
+                ]
+            ],
+            "expected_answer": "computer",
+            "model_prediction": "keyboard",
+            "is_correct": false
+        },
+        {
+            "question": "What is beneath the tap?",
+            "image_path": "data/images/images/n386682.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tap visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly beneath the tap?",
+                    "washing machine"
+                ]
+            ],
+            "expected_answer": "sink",
+            "model_prediction": "washing machine",
+            "is_correct": false
+        },
+        {
+            "question": "Do you see both tissues and mirrors?",
+            "image_path": "data/images/images/n141939.jpg",
+            "qa_pairs": [
+                [
+                    "Is at least one tissue visible?",
+                    "no"
+                ],
+                [
+                    "Is at least one mirror visible?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are there trash cans to the left of the soccer player that is kicking the ball?",
+            "image_path": "data/images/images/n259002.jpg",
+            "qa_pairs": [
+                [
+                    "Is a soccer player kicking a ball visible?",
+                    "no"
+                ],
+                [
+                    "Are trash cans visible?",
+                    "no"
+                ],
+                [
+                    "Are the trash cans to the left of the soccer player kicking the ball?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of device is the man using?",
+            "image_path": "data/images/images/n483840.jpg",
+            "qa_pairs": [
+                [
+                    "Does the device have a visible physical keyboard?",
+                    "no"
+                ],
+                [
+                    "Is the device larger than the man's head?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "phone",
+            "model_prediction": "monitor",
+            "is_correct": false
+        },
+        {
+            "question": "How tall is the table?",
+            "image_path": "data/images/images/n314171.jpg",
+            "qa_pairs": [
+                [
+                    "Is a table visible?",
+                    "no"
+                ],
+                [
+                    "Which height category\u2014short, medium, or tall\u2014best describes that table?",
+                    "tall"
+                ]
+            ],
+            "expected_answer": "tall",
+            "model_prediction": "unknown",
+            "is_correct": false
+        },
+        {
+            "question": "Are the blinds in front of the window and the towels both brown?",
+            "image_path": "data/images/images/n499081.jpg",
+            "qa_pairs": [
+                [
+                    "Are blinds visible in front of the window?",
+                    "yes"
+                ],
+                [
+                    "What color are the blinds in front of the window?",
+                    "brown"
+                ],
+                [
+                    "Are towels visible?",
+                    "yes"
+                ],
+                [
+                    "What color are the towels?",
+                    "beige"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which gender is the skateboarder that is to the left of the helmet?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": [
+                [
+                    "What object is to the left of the helmet?",
+                    "skateboard"
+                ],
+                [
+                    "What is the gender of the skateboarder to the left of the helmet?",
+                    "female"
+                ]
+            ],
+            "expected_answer": "female",
+            "model_prediction": "female",
+            "is_correct": true
+        },
+        {
+            "question": "What is the baby on?",
+            "image_path": "data/images/images/n211324.jpg",
+            "qa_pairs": [
+                [
+                    "Is a baby visible in the image?",
+                    "yes"
+                ],
+                [
+                    "What object is directly beneath the baby?",
+                    "round"
+                ]
+            ],
+            "expected_answer": "bicycle",
+            "model_prediction": "ball",
+            "is_correct": false
+        },
+        {
+            "question": "What piece of furniture is comfortable?",
+            "image_path": "data/images/images/n14087.jpg",
+            "qa_pairs": [
+                [
+                    "Is a piece of furniture visible?",
+                    "no"
+                ],
+                [
+                    "Which piece of furniture looks comfortable?",
+                    "sofa"
+                ]
+            ],
+            "expected_answer": "couch",
+            "model_prediction": "sofa",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of furniture are the curtains behind of?",
+            "image_path": "data/images/images/n125122.jpg",
+            "qa_pairs": [
+                [
+                    "Are curtains visible?",
+                    "no"
+                ],
+                [
+                    "Which furniture is in front of the curtains?",
+                    "bed"
+                ]
+            ],
+            "expected_answer": "chair",
+            "model_prediction": "bed",
+            "is_correct": false
+        },
+        {
+            "question": "What are the animals that are flying called?",
+            "image_path": "data/images/images/n477215.jpg",
+            "qa_pairs": [
+                [
+                    "Is an animal visible?",
+                    "no"
+                ],
+                [
+                    "Is the animal flying?",
+                    "yes"
+                ],
+                [
+                    "Does the animal have wings?",
+                    "yes"
+                ],
+                [
+                    "Are the wings covered in feathers?",
+                    "yes"
+                ],
+                [
+                    "Does the animal have a beak?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "birds",
+            "model_prediction": "birds",
+            "is_correct": true
+        },
+        {
+            "question": "Is the young person on the bike?",
+            "image_path": "data/images/images/n262929.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible?",
+                    "yes"
+                ],
+                [
+                    "Is the visible person young?",
+                    "no"
+                ],
+                [
+                    "Is a bike visible?",
+                    "yes"
+                ],
+                [
+                    "Is the person on the bike?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are the clouds above the brick building?",
+            "image_path": "data/images/images/n263180.jpg",
+            "qa_pairs": [
+                [
+                    "Are clouds visible?",
+                    "yes"
+                ],
+                [
+                    "Is a brick building visible?",
+                    "yes"
+                ],
+                [
+                    "Which spatial relation best describes the position of the clouds relative to the brick building?",
+                    "clock tower"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the helmet to the right of a motorcycle?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": [
+                [
+                    "Is a helmet visible?",
+                    "yes"
+                ],
+                [
+                    "Is a motorcycle visible?",
+                    "no"
+                ],
+                [
+                    "Which side of the motorcycle is the helmet on?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Does the female person seem to be looking down?",
+            "image_path": "data/images/images/n481777.jpg",
+            "qa_pairs": [
+                [
+                    "Is a female person visible?",
+                    "no"
+                ],
+                [
+                    "Are her eyes directed downward?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the happy man to the right or to the left of the bench?",
+            "image_path": "data/images/images/n71728.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bench visible?",
+                    "yes"
+                ],
+                [
+                    "Is a happy man visible?",
+                    "yes"
+                ],
+                [
+                    "Is the happy man to the left of the bench?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "On which side of the photo is the dark vehicle, the left or the right?",
+            "image_path": "data/images/images/n154856.jpg",
+            "qa_pairs": [
+                [
+                    "Is a vehicle visible in the photo?",
+                    "yes"
+                ],
+                [
+                    "Is the vehicle dark?",
+                    "yes"
+                ],
+                [
+                    "Is the vehicle on the left side of the photo?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "left",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "Are there either cabinets or tables that are not light brown?",
+            "image_path": "data/images/images/n460385.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cabinet visible?",
+                    "no"
+                ],
+                [
+                    "What color is the cabinet?",
+                    "tan"
+                ],
+                [
+                    "Is a table visible?",
+                    "no"
+                ],
+                [
+                    "What color is the table?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What appliance is the same shape as the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": [
+                [
+                    "Is a floor visible?",
+                    "no"
+                ],
+                [
+                    "What shape is the floor?",
+                    "square"
+                ],
+                [
+                    "Is a refrigerator visible?",
+                    "yes"
+                ],
+                [
+                    "What shape is the refrigerator?",
+                    "square"
+                ],
+                [
+                    "Is a microwave visible?",
+                    "yes"
+                ],
+                [
+                    "What shape is the microwave?",
+                    "square"
+                ]
+            ],
+            "expected_answer": "oven",
+            "model_prediction": "refrigerator",
+            "is_correct": false
+        },
+        {
+            "question": "Is the large vehicle yellow or black?",
+            "image_path": "data/images/images/n19152.jpg",
+            "qa_pairs": [
+                [
+                    "Is a vehicle visible?",
+                    "no"
+                ],
+                [
+                    "What size is the vehicle?",
+                    "small"
+                ],
+                [
+                    "What color is the vehicle?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "yellow",
+            "model_prediction": "neither",
+            "is_correct": false
+        },
+        {
+            "question": "What item of furniture are the bricks behind of?",
+            "image_path": "data/images/images/n445353.jpg",
+            "qa_pairs": [
+                [
+                    "Are bricks visible?",
+                    "no"
+                ],
+                [
+                    "Is a sofa visible?",
+                    "yes"
+                ],
+                [
+                    "Are the bricks located behind the sofa?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "chair",
+            "model_prediction": "sofa",
+            "is_correct": false
+        },
+        {
+            "question": "Is the umbrella green?",
+            "image_path": "data/images/images/n24526.jpg",
+            "qa_pairs": [
+                [
+                    "Is an umbrella visible?",
+                    "no"
+                ],
+                [
+                    "What color is the umbrella?",
+                    "red"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Where is the statue standing on?",
+            "image_path": "data/images/images/n260521.jpg",
+            "qa_pairs": [
+                [
+                    "Is a statue visible?",
+                    "yes"
+                ],
+                [
+                    "Which surface is the statue standing on?",
+                    "ground"
+                ]
+            ],
+            "expected_answer": "stage",
+            "model_prediction": "ground",
+            "is_correct": false
+        },
+        {
+            "question": "How clean are the pots?",
+            "image_path": "data/images/images/n62458.jpg",
+            "qa_pairs": [
+                [
+                    "Are there any water spots on the pots?",
+                    "yes"
+                ],
+                [
+                    "Are there any stains on the pots?",
+                    "yes"
+                ],
+                [
+                    "Are there any food residues visible on the pots?",
+                    "no"
+                ],
+                [
+                    "Do the pots appear shiny?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "dirty",
+            "model_prediction": "spotty",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a blender to the right of the yellow drink?",
+            "image_path": "data/images/images/n37274.jpg",
+            "qa_pairs": [
+                [
+                    "Is a yellow drink visible?",
+                    "yes"
+                ],
+                [
+                    "Which object is immediately to the right of the yellow drink?",
+                    "wine"
+                ],
+                [
+                    "Is that object a blender?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What are the Caucasian people doing?",
+            "image_path": "data/images/images/n531359.jpg",
+            "qa_pairs": [
+                [
+                    "Are any Caucasian people visible?",
+                    "yes"
+                ],
+                [
+                    "Which action are the Caucasian people performing?",
+                    "pitcher"
+                ]
+            ],
+            "expected_answer": "talking",
+            "model_prediction": "pitching",
+            "is_correct": false
+        },
+        {
+            "question": "Is the water both blue and wet?",
+            "image_path": "data/images/images/n222297.jpg",
+            "qa_pairs": [
+                [
+                    "What color is the water?",
+                    "gray"
+                ],
+                [
+                    "Is the water wet?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the dark curtain above a bed?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": [
+                [
+                    "Is a curtain visible?",
+                    "yes"
+                ],
+                [
+                    "Is the visible curtain dark?",
+                    "yes"
+                ],
+                [
+                    "Is a bed visible?",
+                    "yes"
+                ],
+                [
+                    "Is the visible curtain above the bed?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the woman Caucasian or Asian?",
+            "image_path": "data/images/images/n527589.jpg",
+            "qa_pairs": [
+                [
+                    "What is the woman's skin tone?",
+                    "light"
+                ],
+                [
+                    "What is the woman's hair color?",
+                    "blond"
+                ],
+                [
+                    "Does the woman have an epicanthic fold?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "caucasian",
+            "model_prediction": "asian",
+            "is_correct": false
+        },
+        {
+            "question": "Does the shirt look gold and long sleeved?",
+            "image_path": "data/images/images/n544255.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shirt visible?",
+                    "yes"
+                ],
+                [
+                    "Is the shirt gold?",
+                    "yes"
+                ],
+                [
+                    "Is the shirt long sleeved?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "On which side of the picture is the toilet?",
+            "image_path": "data/images/images/n119886.jpg",
+            "qa_pairs": [
+                [
+                    "Is a picture visible?",
+                    "no"
+                ],
+                [
+                    "Is a toilet visible?",
+                    "no"
+                ],
+                [
+                    "Which side of the picture is the toilet on?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "right",
+            "is_correct": true
+        },
+        {
+            "question": "How big is the curtain?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": [
+                [
+                    "Is a curtain visible?",
+                    "yes"
+                ],
+                [
+                    "Which height\u2014short, medium, or long\u2014best describes the curtain?",
+                    "tall"
+                ],
+                [
+                    "Which width\u2014narrow, medium, or wide\u2014best describes the curtain?",
+                    "wide"
+                ]
+            ],
+            "expected_answer": "small",
+            "model_prediction": "large",
+            "is_correct": false
+        },
+        {
+            "question": "Do the screen and the keyboard have the same color?",
+            "image_path": "data/images/images/n355339.jpg",
+            "qa_pairs": [
+                [
+                    "Is a screen visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the screen?",
+                    "black"
+                ],
+                [
+                    "Is a keyboard visible?",
+                    "no"
+                ],
+                [
+                    "What color is the keyboard?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What animal is the shoe behind of?",
+            "image_path": "data/images/images/n16656.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shoe visible?",
+                    "yes"
+                ],
+                [
+                    "Is an animal visible?",
+                    "no"
+                ],
+                [
+                    "Which animal is visible?",
+                    "cat"
+                ],
+                [
+                    "Is the shoe behind the animal?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "cat",
+            "model_prediction": "cat",
+            "is_correct": true
+        },
+        {
+            "question": "Which kind of animal is looking at the man?",
+            "image_path": "data/images/images/n250821.jpg",
+            "qa_pairs": [
+                [
+                    "Is a man visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is an animal visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is the animal\u2019s head oriented toward the man?",
+                    "yes"
+                ],
+                [
+                    "What type of animal is that animal?",
+                    "dog"
+                ]
+            ],
+            "expected_answer": "cat",
+            "model_prediction": "dog",
+            "is_correct": false
+        },
+        {
+            "question": "Is the person to the left of the player playing or waiting?",
+            "image_path": "data/images/images/n334278.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a person visible to the left of the player?",
+                    "no"
+                ],
+                [
+                    "Is that person hitting a ball?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "playing",
+            "model_prediction": "waiting",
+            "is_correct": false
+        },
+        {
+            "question": "Are there both desks and monitors in the image?",
+            "image_path": "data/images/images/n264887.jpg",
+            "qa_pairs": [
+                [
+                    "Is a desk visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is a monitor visible in the image?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What kind of clothing is green?",
+            "image_path": "data/images/images/n126891.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a piece of clothing that is green?",
+                    "yes"
+                ],
+                [
+                    "Which type of clothing is green?",
+                    "jacket"
+                ]
+            ],
+            "expected_answer": "jersey",
+            "model_prediction": "jacket",
+            "is_correct": false
+        },
+        {
+            "question": "What is the animal that that fence is in front of called?",
+            "image_path": "data/images/images/n6309.jpg",
+            "qa_pairs": [
+                [
+                    "Is a fence visible?",
+                    "no"
+                ],
+                [
+                    "Is an animal visible behind that fence?",
+                    "no"
+                ],
+                [
+                    "Which animal is behind the fence?",
+                    "horse"
+                ]
+            ],
+            "expected_answer": "horse",
+            "model_prediction": "horse",
+            "is_correct": true
+        },
+        {
+            "question": "What is the color of the food container?",
+            "image_path": "data/images/images/n363445.jpg",
+            "qa_pairs": [
+                [
+                    "Is a food container visible?",
+                    "no"
+                ],
+                [
+                    "What color is the food container?",
+                    "white"
+                ]
+            ],
+            "expected_answer": "purple",
+            "model_prediction": "unknown",
+            "is_correct": false
+        },
+        {
+            "question": "What is the black item of furniture?",
+            "image_path": "data/images/images/n69237.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a piece of furniture that is black?",
+                    "yes"
+                ],
+                [
+                    "Which furniture item is black?",
+                    "bed"
+                ]
+            ],
+            "expected_answer": "bookcase",
+            "model_prediction": "bed",
+            "is_correct": false
+        },
+        {
+            "question": "Does the computer to the right of the shelf look black or silver?",
+            "image_path": "data/images/images/n233607.jpg",
+            "qa_pairs": [
+                [
+                    "Is a shelf visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is a computer visible in the image?",
+                    "no"
+                ],
+                [
+                    "Is that computer located to the right of the shelf?",
+                    "no"
+                ],
+                [
+                    "What color is that computer?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "silver",
+            "model_prediction": "silver",
+            "is_correct": true
+        },
+        {
+            "question": "Is there a skateboarder in the photograph that is male?",
+            "image_path": "data/images/images/n489190.jpg",
+            "qa_pairs": [
+                [
+                    "Is a skateboarder visible in the photograph?",
+                    "yes"
+                ],
+                [
+                    "What is the gender of the skateboarder?",
+                    "female"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the gray floor clean and light?",
+            "image_path": "data/images/images/n98544.jpg",
+            "qa_pairs": [
+                [
+                    "Is a floor visible?",
+                    "no"
+                ],
+                [
+                    "Is the floor gray in color?",
+                    "no"
+                ],
+                [
+                    "Is the floor clean?",
+                    "no"
+                ],
+                [
+                    "Is the floor light in color?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the man that is to the right of the woman wearing a suit?",
+            "image_path": "data/images/images/n540852.jpg",
+            "qa_pairs": [
+                [
+                    "Is a woman visible?",
+                    "yes"
+                ],
+                [
+                    "Is a man visible to the right of the woman?",
+                    "no"
+                ],
+                [
+                    "Is that man wearing a suit?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "In which part of the photo is the drawer, the bottom or the top?",
+            "image_path": "data/images/images/n65866.jpg",
+            "qa_pairs": [
+                [
+                    "Is a drawer visible in the photo?",
+                    "no"
+                ],
+                [
+                    "Which part of the photo\u2014top or bottom\u2014contains the drawer?",
+                    "top"
+                ]
+            ],
+            "expected_answer": "top",
+            "model_prediction": "top",
+            "is_correct": true
+        },
+        {
+            "question": "Is the plastic toothbrush to the left or to the right of the mirror?",
+            "image_path": "data/images/images/n473688.jpg",
+            "qa_pairs": [
+                [
+                    "Is a plastic toothbrush visible?",
+                    "yes"
+                ],
+                [
+                    "Is a mirror visible?",
+                    "no"
+                ],
+                [
+                    "Which side of the mirror is the plastic toothbrush on?",
+                    "right"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "right",
+            "is_correct": true
+        },
+        {
+            "question": "What is worn around the old person?",
+            "image_path": "data/images/images/n342511.jpg",
+            "qa_pairs": [
+                [
+                    "Is an old person visible?",
+                    "no"
+                ],
+                [
+                    "Is there an object worn around the old person?",
+                    "yes"
+                ],
+                [
+                    "Which object is worn around the old person?",
+                    "keyboard"
+                ]
+            ],
+            "expected_answer": "jacket",
+            "model_prediction": "nothing",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of toy is inside the cabinets?",
+            "image_path": "data/images/images/n326988.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cabinet visible?",
+                    "no"
+                ],
+                [
+                    "Is a toy inside the cabinet?",
+                    "no"
+                ],
+                [
+                    "What kind of toy is inside the cabinet?",
+                    "stuffed animal"
+                ]
+            ],
+            "expected_answer": "doll",
+            "model_prediction": "stuffed animal",
+            "is_correct": false
+        },
+        {
+            "question": "What's the horse doing?",
+            "image_path": "data/images/images/n168412.jpg",
+            "qa_pairs": [
+                [
+                    "Is a horse visible?",
+                    "yes"
+                ],
+                [
+                    "Are any of the horse\u2019s hooves off the ground?",
+                    "yes"
+                ],
+                [
+                    "Is the horse\u2019s head lowered toward the ground?",
+                    "yes"
+                ],
+                [
+                    "Is grass visible near the horse\u2019s mouth?",
+                    "yes"
+                ],
+                [
+                    "Is water visible near the horse\u2019s mouth?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "running",
+            "model_prediction": "drinking",
+            "is_correct": false
+        },
+        {
+            "question": "Which kind of furniture is in front of the bookshelf?",
+            "image_path": "data/images/images/n95313.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bookshelf visible?",
+                    "yes"
+                ],
+                [
+                    "Is there furniture directly in front of the bookshelf?",
+                    "no"
+                ],
+                [
+                    "What kind of furniture is in front of the bookshelf?",
+                    "shelf"
+                ]
+            ],
+            "expected_answer": "bed",
+            "model_prediction": "shelf",
+            "is_correct": false
+        },
+        {
+            "question": "Is there a traffic light in front of the bridge that is crossing the street?",
+            "image_path": "data/images/images/n309148.jpg",
+            "qa_pairs": [
+                [
+                    "Is a bridge visible?",
+                    "yes"
+                ],
+                [
+                    "Is the bridge crossing the street?",
+                    "yes"
+                ],
+                [
+                    "Is a traffic light visible?",
+                    "yes"
+                ],
+                [
+                    "Is the traffic light in front of the bridge?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "On which side is the tennis ball, the right or the left?",
+            "image_path": "data/images/images/n560243.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tennis ball visible?",
+                    "yes"
+                ],
+                [
+                    "Is the tennis ball on the left side?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "left",
+            "model_prediction": "left",
+            "is_correct": true
+        },
+        {
+            "question": "On which side are the blue plates?",
+            "image_path": "data/images/images/n546616.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a plate visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Are any of the visible plates blue?",
+                    "yes"
+                ],
+                [
+                    "Are the blue plates on the left side of the image?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "left",
+            "model_prediction": "left",
+            "is_correct": true
+        },
+        {
+            "question": "Is the small mirror on the motorcycle?",
+            "image_path": "data/images/images/n390187.jpg",
+            "qa_pairs": [
+                [
+                    "Is a mirror visible?",
+                    "yes"
+                ],
+                [
+                    "Is the mirror small?",
+                    "no"
+                ],
+                [
+                    "Is the mirror on a motorcycle?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the helmet blue?",
+            "image_path": "data/images/images/n411121.jpg",
+            "qa_pairs": [
+                [
+                    "Is a helmet visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the helmet?",
+                    "red"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the person on the field wearing a uniform?",
+            "image_path": "data/images/images/n260762.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible on the field?",
+                    "yes"
+                ],
+                [
+                    "Are the person's shirt and shorts the same color?",
+                    "yes"
+                ],
+                [
+                    "Is there a number visible on the person's clothing?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "How large are the sprinkles that are sprinkled on the cupcakes?",
+            "image_path": "data/images/images/n296467.jpg",
+            "qa_pairs": [
+                [
+                    "Are sprinkles visible?",
+                    "yes"
+                ],
+                [
+                    "Are the sprinkles on cupcakes?",
+                    "yes"
+                ],
+                [
+                    "What size are the sprinkles?",
+                    "small"
+                ]
+            ],
+            "expected_answer": "small",
+            "model_prediction": "small",
+            "is_correct": true
+        },
+        {
+            "question": "Are the pants both short and black?",
+            "image_path": "data/images/images/n202379.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pair of pants visible?",
+                    "yes"
+                ],
+                [
+                    "Are the pants short?",
+                    "no"
+                ],
+                [
+                    "Are the pants black?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What is the powder lying on top of?",
+            "image_path": "data/images/images/n293477.jpg",
+            "qa_pairs": [
+                [
+                    "Is a powder visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly below the powder?",
+                    "square"
+                ]
+            ],
+            "expected_answer": "bed",
+            "model_prediction": "square",
+            "is_correct": false
+        },
+        {
+            "question": "What is the plant in?",
+            "image_path": "data/images/images/n578564.jpg",
+            "qa_pairs": [
+                [
+                    "Is a plant visible?",
+                    "yes"
+                ],
+                [
+                    "Is the plant inside a container?",
+                    "yes"
+                ],
+                [
+                    "Is the container made of ceramic?",
+                    "yes"
+                ],
+                [
+                    "Is the container cylindrical?",
+                    "yes"
+                ],
+                [
+                    "Does the container have a narrow neck?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "flower pot",
+            "model_prediction": "vase",
+            "is_correct": false
+        },
+        {
+            "question": "What is the animal to the left of the brown animal?",
+            "image_path": "data/images/images/n324908.jpg",
+            "qa_pairs": [
+                [
+                    "Is a brown animal visible?",
+                    "yes"
+                ],
+                [
+                    "Which animal is directly to the left of the brown animal?",
+                    "horse"
+                ]
+            ],
+            "expected_answer": "horse",
+            "model_prediction": "horse",
+            "is_correct": true
+        },
+        {
+            "question": "What are the people in front of?",
+            "image_path": "data/images/images/n115614.jpg",
+            "qa_pairs": [
+                [
+                    "Are people visible?",
+                    "no"
+                ],
+                [
+                    "Are the people standing in front of an object?",
+                    "no"
+                ],
+                [
+                    "Which object is directly behind the people?",
+                    "hat"
+                ]
+            ],
+            "expected_answer": "stores",
+            "model_prediction": "nothing",
+            "is_correct": false
+        },
+        {
+            "question": "Are the white shoes behind the person that the hat is worn on?",
+            "image_path": "data/images/images/n573460.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person wearing a hat visible?",
+                    "no"
+                ],
+                [
+                    "Are white shoes visible?",
+                    "yes"
+                ],
+                [
+                    "Are the white shoes behind the person wearing the hat?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "Is the dresser on the right side or on the left?",
+            "image_path": "data/images/images/n49438.jpg",
+            "qa_pairs": [
+                [
+                    "Is a dresser visible in the image?",
+                    "yes"
+                ],
+                [
+                    "Is the dresser on the right side of the image?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "left",
+            "model_prediction": "right",
+            "is_correct": false
+        },
+        {
+            "question": "How big is the black vehicle?",
+            "image_path": "data/images/images/n522733.jpg",
+            "qa_pairs": [
+                [
+                    "Is a vehicle visible?",
+                    "yes"
+                ],
+                [
+                    "Is the visible vehicle black?",
+                    "yes"
+                ],
+                [
+                    "Which size\u2014small, medium, or large\u2014best describes the vehicle?",
+                    "large"
+                ]
+            ],
+            "expected_answer": "large",
+            "model_prediction": "large",
+            "is_correct": true
+        },
+        {
+            "question": "Who is in front of the frame made of wood?",
+            "image_path": "data/images/images/n234683.jpg",
+            "qa_pairs": [
+                [
+                    "Is there a visible frame?",
+                    "yes"
+                ],
+                [
+                    "What material is the visible frame made of?",
+                    "wood"
+                ],
+                [
+                    "Is there a person in front of the frame?",
+                    "no"
+                ],
+                [
+                    "What noun best describes the person in front of the frame?",
+                    "fan"
+                ]
+            ],
+            "expected_answer": "man",
+            "model_prediction": "nobody",
+            "is_correct": false
+        },
+        {
+            "question": "The woman that to the right of the elephant sits on what?",
+            "image_path": "data/images/images/n119944.jpg",
+            "qa_pairs": [
+                [
+                    "Is an elephant visible?",
+                    "yes"
+                ],
+                [
+                    "Is there a woman to the right of the elephant?",
+                    "no"
+                ],
+                [
+                    "What object is the woman sitting on?",
+                    "chair"
+                ]
+            ],
+            "expected_answer": "bench",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "What is common to the door and the kitten?",
+            "image_path": "data/images/images/n567860.jpg",
+            "qa_pairs": [
+                [
+                    "What color is the door?",
+                    "white"
+                ],
+                [
+                    "What color is the kitten?",
+                    "beige"
+                ]
+            ],
+            "expected_answer": "color",
+            "model_prediction": "pale",
+            "is_correct": false
+        },
+        {
+            "question": "Is the container that looks brown made of paper?",
+            "image_path": "data/images/images/n4777.jpg",
+            "qa_pairs": [
+                [
+                    "Is a container visible in the image?",
+                    "no"
+                ],
+                [
+                    "What color is the container?",
+                    "black"
+                ],
+                [
+                    "What material is the container made of?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the container made of plastic light and blue?",
+            "image_path": "data/images/images/n579256.jpg",
+            "qa_pairs": [
+                [
+                    "Is the container made of plastic?",
+                    "no"
+                ],
+                [
+                    "Is the container light?",
+                    "yes"
+                ],
+                [
+                    "What color is the container?",
+                    "white"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What is the item of furniture to the right of the lady that is looking down at the cake called?",
+            "image_path": "data/images/images/n111390.jpg",
+            "qa_pairs": [
+                [
+                    "Is a lady visible?",
+                    "no"
+                ],
+                [
+                    "Is the lady looking down?",
+                    "no"
+                ],
+                [
+                    "What is the lady looking at?",
+                    "cake"
+                ],
+                [
+                    "Which object is directly to the right of the lady?",
+                    "wood"
+                ],
+                [
+                    "What type of furniture is that object?",
+                    "table"
+                ]
+            ],
+            "expected_answer": "table",
+            "model_prediction": "table",
+            "is_correct": true
+        },
+        {
+            "question": "Do the flowers look white?",
+            "image_path": "data/images/images/n23762.jpg",
+            "qa_pairs": [
+                [
+                    "Are flowers visible in the image?",
+                    "yes"
+                ],
+                [
+                    "What color are the flowers?",
+                    "yellow"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Which side of the photo is the young surfer on?",
+            "image_path": "data/images/images/n488874.jpg",
+            "qa_pairs": [
+                [
+                    "Is a surfer visible in the photo?",
+                    "no"
+                ],
+                [
+                    "Does the visible surfer appear young?",
+                    "yes"
+                ],
+                [
+                    "Which side of the photo is that surfer on?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "right",
+            "model_prediction": "left",
+            "is_correct": false
+        },
+        {
+            "question": "What is the laptop sitting on top of?",
+            "image_path": "data/images/images/n4777.jpg",
+            "qa_pairs": [
+                [
+                    "Is a laptop visible?",
+                    "no"
+                ],
+                [
+                    "Which object is directly beneath the laptop?",
+                    "keyboard"
+                ]
+            ],
+            "expected_answer": "table",
+            "model_prediction": "keyboard",
+            "is_correct": false
+        },
+        {
+            "question": "Do the tree leaves look dried?",
+            "image_path": "data/images/images/n219840.jpg",
+            "qa_pairs": [
+                [
+                    "Are tree leaves visible?",
+                    "yes"
+                ],
+                [
+                    "What color are the tree leaves?",
+                    "green"
+                ],
+                [
+                    "Are the edges of the tree leaves curled?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is that jersey pink and sleeveless?",
+            "image_path": "data/images/images/n259002.jpg",
+            "qa_pairs": [
+                [
+                    "Is a jersey visible?",
+                    "no"
+                ],
+                [
+                    "What color is the jersey?",
+                    "black"
+                ],
+                [
+                    "Is the jersey sleeveless?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Behind what vehicles are the buildings?",
+            "image_path": "data/images/images/n406334.jpg",
+            "qa_pairs": [
+                [
+                    "Is a building visible?",
+                    "yes"
+                ],
+                [
+                    "Is at least one vehicle visible?",
+                    "no"
+                ],
+                [
+                    "Is there a vehicle directly in front of the building?",
+                    "yes"
+                ],
+                [
+                    "Which vehicle is directly in front of the building?",
+                    "bus"
+                ]
+            ],
+            "expected_answer": "cars",
+            "model_prediction": "bus",
+            "is_correct": false
+        },
+        {
+            "question": "How tall is the house to the right of the skater?",
+            "image_path": "data/images/images/n299528.jpg",
+            "qa_pairs": [
+                [
+                    "Is a skater visible?",
+                    "yes"
+                ],
+                [
+                    "Is a house visible to the right of the skater?",
+                    "yes"
+                ],
+                [
+                    "Which height category\u2014short, medium, or tall\u2014best describes that house?",
+                    "tall"
+                ]
+            ],
+            "expected_answer": "short",
+            "model_prediction": "tall",
+            "is_correct": false
+        },
+        {
+            "question": "Does the tie have short length?",
+            "image_path": "data/images/images/n262929.jpg",
+            "qa_pairs": [
+                [
+                    "Is a tie visible in the image?",
+                    "no"
+                ],
+                [
+                    "Which length category\u2014short or long\u2014best describes the tie?",
+                    "long"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is the wall different in color than the keyboard?",
+            "image_path": "data/images/images/n240973.jpg",
+            "qa_pairs": [
+                [
+                    "What color is the wall?",
+                    "gray"
+                ],
+                [
+                    "What color is the keyboard?",
+                    "gray"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Are both the sky and the shirt the same color?",
+            "image_path": "data/images/images/n272313.jpg",
+            "qa_pairs": [
+                [
+                    "What color is the sky?",
+                    "blue"
+                ],
+                [
+                    "What color is the shirt?",
+                    "blue"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "Does the vegetable that is not small look yellow?",
+            "image_path": "data/images/images/n500209.jpg",
+            "qa_pairs": [
+                [
+                    "Which vegetable in the image is not small?",
+                    "carrot"
+                ],
+                [
+                    "What color is the vegetable that is not small?",
+                    "brown"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the color of the cake different than the plate?",
+            "image_path": "data/images/images/n200692.jpg",
+            "qa_pairs": [
+                [
+                    "What color is the cake?",
+                    "white"
+                ],
+                [
+                    "What color is the plate?",
+                    "blue"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What is on the floor?",
+            "image_path": "data/images/images/n501609.jpg",
+            "qa_pairs": [
+                [
+                    "Is a floor visible in the image?",
+                    "no"
+                ],
+                [
+                    "Which object is located on the floor?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "refrigerator",
+            "model_prediction": "wood",
+            "is_correct": false
+        },
+        {
+            "question": "Are the shorts different in color than the pants?",
+            "image_path": "data/images/images/n127705.jpg",
+            "qa_pairs": [
+                [
+                    "Is a pair of shorts visible?",
+                    "yes"
+                ],
+                [
+                    "Is a pair of pants visible?",
+                    "yes"
+                ],
+                [
+                    "What color are the shorts?",
+                    "green"
+                ],
+                [
+                    "What color are the pants?",
+                    "dark"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What appliance is sitting in front of the wall?",
+            "image_path": "data/images/images/n280089.jpg",
+            "qa_pairs": [
+                [
+                    "Is an appliance visible in front of the wall?",
+                    "no"
+                ],
+                [
+                    "Which appliance is sitting in front of the wall?",
+                    "refrigerator"
+                ]
+            ],
+            "expected_answer": "stove",
+            "model_prediction": "refrigerator",
+            "is_correct": false
+        },
+        {
+            "question": "What is the piece of furniture to the right of the lamps on the left side?",
+            "image_path": "data/images/images/n520071.jpg",
+            "qa_pairs": [
+                [
+                    "Are lamps visible on the left side?",
+                    "no"
+                ],
+                [
+                    "Which piece of furniture is immediately to the right of those lamps?",
+                    "desk"
+                ]
+            ],
+            "expected_answer": "bookcase",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "Is the umbrella blue and metallic?",
+            "image_path": "data/images/images/n95904.jpg",
+            "qa_pairs": [
+                [
+                    "Is an umbrella visible?",
+                    "yes"
+                ],
+                [
+                    "Is the umbrella blue?",
+                    "no"
+                ],
+                [
+                    "Is the umbrella metallic?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Are the words red?",
+            "image_path": "data/images/images/n315859.jpg",
+            "qa_pairs": [
+                [
+                    "Are any words visible in the image?",
+                    "yes"
+                ],
+                [
+                    "What color are the visible words?",
+                    "black"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What animal is young?",
+            "image_path": "data/images/images/n567860.jpg",
+            "qa_pairs": [
+                [
+                    "Is a puppy visible?",
+                    "no"
+                ],
+                [
+                    "Is an adult dog visible?",
+                    "no"
+                ],
+                [
+                    "Is the puppy standing next to the adult dog?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "kitten",
+            "model_prediction": "puppy",
+            "is_correct": false
+        },
+        {
+            "question": "How large is the sailboat below the airplane?",
+            "image_path": "data/images/images/n386688.jpg",
+            "qa_pairs": [
+                [
+                    "Is an airplane visible?",
+                    "yes"
+                ],
+                [
+                    "Is a sailboat visible?",
+                    "yes"
+                ],
+                [
+                    "Is the sailboat below the airplane?",
+                    "yes"
+                ],
+                [
+                    "What size is the sailboat?",
+                    "large"
+                ]
+            ],
+            "expected_answer": "large",
+            "model_prediction": "large",
+            "is_correct": true
+        },
+        {
+            "question": "Are the computer monitor and the picture frame made of the same material?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": [
+                [
+                    "What material is the computer monitor made of?",
+                    "plastic"
+                ],
+                [
+                    "What material is the picture frame made of?",
+                    "wood"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "How is the clothing item that is open called?",
+            "image_path": "data/images/images/n313060.jpg",
+            "qa_pairs": [
+                [
+                    "Is a clothing item visible?",
+                    "yes"
+                ],
+                [
+                    "Is the visible clothing item open?",
+                    "no"
+                ],
+                [
+                    "What type of clothing item is open?",
+                    "shirt"
+                ]
+            ],
+            "expected_answer": "sweatshirt",
+            "model_prediction": "shirt",
+            "is_correct": false
+        },
+        {
+            "question": "Are the spectators that are sitting-down watching the pitcher?",
+            "image_path": "data/images/images/n485969.jpg",
+            "qa_pairs": [
+                [
+                    "Are there any spectators that are sitting down?",
+                    "yes"
+                ],
+                [
+                    "Is a pitcher visible?",
+                    "yes"
+                ],
+                [
+                    "Are the sitting spectators looking at the pitcher?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "yes",
+            "is_correct": true
+        },
+        {
+            "question": "What is the hanging device called?",
+            "image_path": "data/images/images/n262920.jpg",
+            "qa_pairs": [
+                [
+                    "Is the device fixed to a surface?",
+                    "no"
+                ],
+                [
+                    "Does the device include a triangular frame?",
+                    "yes"
+                ],
+                [
+                    "Does the device include a curved hook?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "screen",
+            "model_prediction": "hanger",
+            "is_correct": false
+        },
+        {
+            "question": "The furry animal near the window is lying on what?",
+            "image_path": "data/images/images/n65885.jpg",
+            "qa_pairs": [
+                [
+                    "Is a furry animal visible near the window?",
+                    "yes"
+                ],
+                [
+                    "What is the animal lying on?",
+                    "rug"
+                ]
+            ],
+            "expected_answer": "carpet",
+            "model_prediction": "rug",
+            "is_correct": false
+        },
+        {
+            "question": "What's the girl holding?",
+            "image_path": "data/images/images/n137182.jpg",
+            "qa_pairs": [
+                [
+                    "Is a girl visible?",
+                    "yes"
+                ],
+                [
+                    "Is the girl holding an object?",
+                    "no"
+                ],
+                [
+                    "What object is the girl holding?",
+                    "surfboard"
+                ]
+            ],
+            "expected_answer": "surfboard",
+            "model_prediction": "surfboard",
+            "is_correct": true
+        },
+        {
+            "question": "Are there either apples or bananas that are not brown?",
+            "image_path": "data/images/images/n222915.jpg",
+            "qa_pairs": [
+                [
+                    "Is there any apple that is not brown?",
+                    "yes"
+                ],
+                [
+                    "Is there any banana that is not brown?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "yes",
+            "is_correct": false
+        },
+        {
+            "question": "What device is under the computer monitor?",
+            "image_path": "data/images/images/n398257.jpg",
+            "qa_pairs": [
+                [
+                    "Is a computer monitor visible?",
+                    "yes"
+                ],
+                [
+                    "Is there a device directly below the computer monitor?",
+                    "yes"
+                ],
+                [
+                    "Which device is directly below the computer monitor?",
+                    "monitor"
+                ]
+            ],
+            "expected_answer": "keyboard",
+            "model_prediction": "monitor",
+            "is_correct": false
+        },
+        {
+            "question": "Is the size of the trash bin small?",
+            "image_path": "data/images/images/n249639.jpg",
+            "qa_pairs": [
+                [
+                    "Is a trash bin visible?",
+                    "no"
+                ],
+                [
+                    "Which size\u2014small, medium, or large\u2014best describes the trash bin?",
+                    "large"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Do both the device that is white and the on TV to the right of the lamp look small?",
+            "image_path": "data/images/images/n536256.jpg",
+            "qa_pairs": [
+                [
+                    "Is a white device visible?",
+                    "no"
+                ],
+                [
+                    "Does the white device look small?",
+                    "no"
+                ],
+                [
+                    "Is a lamp visible?",
+                    "no"
+                ],
+                [
+                    "Is there a TV to the right of the lamp?",
+                    "no"
+                ],
+                [
+                    "Does that TV look small?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Does the helmet look tan?",
+            "image_path": "data/images/images/n88366.jpg",
+            "qa_pairs": [
+                [
+                    "Is a helmet visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the helmet?",
+                    "red"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "What material is the cake stand, metal or glass?",
+            "image_path": "data/images/images/n238266.jpg",
+            "qa_pairs": [
+                [
+                    "Is a cake stand visible?",
+                    "no"
+                ],
+                [
+                    "Is the cake stand made of metal?",
+                    "no"
+                ],
+                [
+                    "Is the cake stand made of glass?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "metal",
+            "model_prediction": "glass",
+            "is_correct": false
+        },
+        {
+            "question": "Is the countertop above a refrigerator?",
+            "image_path": "data/images/images/n35676.jpg",
+            "qa_pairs": [
+                [
+                    "Is a countertop visible?",
+                    "yes"
+                ],
+                [
+                    "Is a refrigerator visible?",
+                    "no"
+                ],
+                [
+                    "What is directly above the refrigerator?",
+                    "celery"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Who is sleeping?",
+            "image_path": "data/images/images/n162586.jpg",
+            "qa_pairs": [
+                [
+                    "Is a person visible?",
+                    "no"
+                ],
+                [
+                    "Is that person sleeping?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "woman",
+            "model_prediction": "nobody",
+            "is_correct": false
+        },
+        {
+            "question": "Are there any gloves or hats that are not large?",
+            "image_path": "data/images/images/n460556.jpg",
+            "qa_pairs": [
+                [
+                    "Is any glove small?",
+                    "no"
+                ],
+                [
+                    "Is any glove medium?",
+                    "no"
+                ],
+                [
+                    "Is any hat small?",
+                    "no"
+                ],
+                [
+                    "Is any hat medium?",
+                    "no"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "What do you think is the vehicle to the right of the woman that is wearing pants?",
+            "image_path": "data/images/images/n24526.jpg",
+            "qa_pairs": [
+                [
+                    "Is a woman wearing pants visible?",
+                    "no"
+                ],
+                [
+                    "Is there a vehicle to the right of the woman wearing pants?",
+                    "no"
+                ],
+                [
+                    "What type of vehicle is to the right of the woman wearing pants?",
+                    "cars"
+                ]
+            ],
+            "expected_answer": "car",
+            "model_prediction": "none",
+            "is_correct": false
+        },
+        {
+            "question": "How clean is the floor?",
+            "image_path": "data/images/images/n98544.jpg",
+            "qa_pairs": [
+                [
+                    "Are dirt particles visible on the floor?",
+                    "yes"
+                ],
+                [
+                    "Are stains visible on the floor?",
+                    "yes"
+                ],
+                [
+                    "Is dust visible on the floor?",
+                    "no"
+                ],
+                [
+                    "Does the floor surface appear shiny?",
+                    "yes"
+                ]
+            ],
+            "expected_answer": "clean",
+            "model_prediction": "dirty",
+            "is_correct": false
+        },
+        {
+            "question": "Are the trees green?",
+            "image_path": "data/images/images/n202379.jpg",
+            "qa_pairs": [
+                [
+                    "Are any trees visible in the image?",
+                    "no"
+                ],
+                [
+                    "What color are the visible trees?",
+                    "green"
+                ]
+            ],
+            "expected_answer": "no",
+            "model_prediction": "no",
+            "is_correct": true
+        },
+        {
+            "question": "Is this a red suitcase?",
+            "image_path": "data/images/images/n575770.jpg",
+            "qa_pairs": [
+                [
+                    "Is a suitcase visible?",
+                    "yes"
+                ],
+                [
+                    "What color is the suitcase?",
+                    "brown"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "Is the plastic helmet to the left of a woman?",
+            "image_path": "data/images/images/n471866.jpg",
+            "qa_pairs": [
+                [
+                    "Is a helmet visible?",
+                    "yes"
+                ],
+                [
+                    "What material is the helmet?",
+                    "metal"
+                ],
+                [
+                    "Is a woman visible?",
+                    "no"
+                ],
+                [
+                    "Relative to the woman, is the helmet on the left or right?",
+                    "left"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        },
+        {
+            "question": "The small sink has which shape?",
+            "image_path": "data/images/images/n499081.jpg",
+            "qa_pairs": [
+                [
+                    "Is a sink visible?",
+                    "no"
+                ],
+                [
+                    "Which size\u2014small, medium, or large\u2014best describes the sink?",
+                    "small"
+                ],
+                [
+                    "What shape is the sink?",
+                    "square"
+                ]
+            ],
+            "expected_answer": "square",
+            "model_prediction": "square",
+            "is_correct": true
+        },
+        {
+            "question": "Is the name tag the same color as the collar?",
+            "image_path": "data/images/images/n52544.jpg",
+            "qa_pairs": [
+                [
+                    "Is a name tag visible?",
+                    "yes"
+                ],
+                [
+                    "What is the color of the name tag?",
+                    "black"
+                ],
+                [
+                    "What is the color of the collar?",
+                    "white"
+                ]
+            ],
+            "expected_answer": "yes",
+            "model_prediction": "no",
+            "is_correct": false
+        }
+    ]
+}
