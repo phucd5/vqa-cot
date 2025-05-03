@@ -1,5 +1,4 @@
-## Description
-An exploration of dynamic Chain-of-Thought sub-question generation methods for Visual Question Answering (VQA). Course final project for CPSC 477/577 Natural Language Processing (Spring 2025).
+# Improving Chain-of-Thought Reasoning for Visual Question Answering
 
 ## Author
 Phuc Duong, Sophia Kang, Eric Wang
