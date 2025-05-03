@@ -12,6 +12,8 @@ Yale University, Department of Computer Science
 
 The Visual Question Answering (VQA) task is difficult for vision-language and language models because it involves question answering that involves not only multimodal inputs but also multiple reasoning steps. We introduce 3 new systems for CoT for VQA: (1) dynamic CoT, which generates sub-questions tailored to each image-question pair, (2) self-consistent CoT which samples multiple reasoning chains and pick the top $k$ answer, and (3) sequential CoT which feed in the answer to a sub-question back in the model, before generating a new one to iteratively develop sub-question. We found that sequential CoT performed 3.6\% better compared compared to basic CoT in BLIP2+GPT4.1, and 9.6\% better with VILT+o4-mini. Analysis also shows that sequential prompting can help correct hallucinations, and mitigate error propagation to some questions. Additionally, we also found that CoT prompting is explicitly better on questions that compares attribute of two different objects, as it isolates each attribute into simpler sub-questions the VQA model can answer more accurately. Our results shows the that iterative and dynamic reasoning with CoT can help improve multi-step VQA.
 
+![vqa_systems](assets/vqa_systems.png)
+
 ## Setup and Computing Infrastructure
 
 **Frameworks Version**
@@ -123,8 +125,6 @@ python train.py \
 ## Evaluation
 
 ### System & Evaluation
-
-![vqa_systems](image.png)
 
 The four systems' (Direct Prompting, CoT, Consistent CoT, Sequential CoT) implementation can be found in [eval.py](eval.py) along with the evaluation loop that evaluates the model's performance.
 ### Sub-Questions Generation
